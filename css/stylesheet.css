@@ -17,13 +17,13 @@ header {
   margin-bottom: 70px;
 }
 
-.header-logo img {
+header img {
   width: 100px;
   display: inline-block;
   margin: 10px 200px;
 }
 
-.secondary-header {
+.navbar {
   padding-top: 30px;
   margin: auto;
   width: 50%;
@@ -31,14 +31,14 @@ header {
   border-bottom: 0.5px solid rgb(0, 0, 0);
 }
 
-.secondary-header p {
+.navbar p {
   margin: auto;
   font-size: 20px;
   font-weight: bold;
   float: left;
 }
 
-.secondary-header a {
+.navbar a {
   margin: auto;
   float: right;
   text-decoration: none;
@@ -47,66 +47,20 @@ header {
   margin-top: 5px;
 }
 
-/* HOMEPAGE  */
-
-.Logo-homepage img {
-  width: 455px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8%;
-}
-
-.button-1 {
-  background: rgb(106, 72, 224);
-  background: linear-gradient(
-    0deg,
-    rgba(106, 72, 224, 1) 0%,
-    rgba(176, 153, 252, 1) 100%
-  );
-  border: none;
-  color: white;
-  padding: 15px 100px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: bold;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 15px;
-  display: flex;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  margin-top: 10px;
-}
-
-.button-1.home {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-}
-
-.create-account {
+.container {
+  padding-top: 50px;
   display: block;
-  margin-top: 20px;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
-
-/* LOGIN */
-
-.logo-login {
-  width: 200px;
-  display: flex;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
+  text-align: center;
 }
 
-h1 {
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 10px;
+.container img {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input {
@@ -122,34 +76,25 @@ input {
   text-indent: 30px;
 }
 
-.button-1.login {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.psw {
-  display: block;
-  text-decoration: none;
-  color: black;
-  margin-left: auto;
+.button-1 {
+  background: rgb(106, 72, 224);
+  background: linear-gradient(0deg,rgba(106, 72, 224, 1) 0%,rgba(176, 153, 252, 1) 100%);
+  border: none;
+  color: white;
+  padding: 15px 100px;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
 }
 
-/* CREATE ACCOUNT */
-
-.button-1.create {
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textfield-name {
-  display: inline-block;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-
+.button-1.create-account {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
