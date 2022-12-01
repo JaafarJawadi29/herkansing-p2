@@ -1,0 +1,155 @@
+body {
+  background-color: #f5f5f7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* HEADER  */
+
+header {
+  display: block;
+  height: 45px;
+  width: 100%;
+  display: block;
+  background-color: white;
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.header-logo img {
+  width: 100px;
+  display: inline-block;
+  margin: 10px 200px;
+}
+
+.secondary-header {
+  padding-top: 30px;
+  margin: auto;
+  width: 50%;
+  height: 30px;
+  border-bottom: 0.5px solid rgb(0, 0, 0);
+}
+
+.secondary-header p {
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+
+.secondary-header a {
+  margin: auto;
+  float: right;
+  text-decoration: none;
+  color: black;
+  padding-left: 50px;
+  margin-top: 5px;
+}
+
+/* HOMEPAGE  */
+
+.Logo-homepage img {
+  width: 455px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+}
+
+.button-1 {
+  background: rgb(106, 72, 224);
+  background: linear-gradient(
+    0deg,
+    rgba(106, 72, 224, 1) 0%,
+    rgba(176, 153, 252, 1) 100%
+  );
+  border: none;
+  color: white;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.button-1.home {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.create-account {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+/* LOGIN */
+
+.logo-login {
+  width: 200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  font-size: 16px;
+  text-indent: 30px;
+}
+
+.button-1.login {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.psw {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-left: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* CREATE ACCOUNT */
+
+.button-1.create {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textfield-name {
+  display: inline-block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
