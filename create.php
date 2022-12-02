@@ -11,45 +11,19 @@
 
 <body>
     <?php include 'header.php'; ?>
-
-    <!-- <img class="logo-login" src="img/Image4.png" alt="Logo van ServiceIT">
-
-    <h1>Maak een account aan</h1>
-    <form class="login" action="action_page.php" method="post">
-        <div class="login-field">
-            <input class="textfield-name" type="text" placeholder="Voornaam" name="uname" required>
-            <input class="textfield-name" type="text" placeholder="Achternaam" name="uname" required>
-            <input type="password" placeholder="Wachtwoord" name="psw" required>
-            <input type="password" placeholder="Bevestig wachtwoord" name="psw" required>
-    </form>
-    <form class="login" action="action_page.php" method="post">
-
-        </div>
-        <button class="button-1 create" type="submit">Inloggen</button> -->
     <div class="container">
         <img src="img/Image4.png" alt="Logo van ServiceIT">
 
         <h1>Maak een account aan</h1>
 
         <form class="login" action="action_page.php" method="post">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Voornaam" required="required">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Achternaam" required="required">
-            </div>
-            <div class="form-group">
-                <input type="email" class="form-control" placeholder="naam@emample.com" required="required">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" placeholder="Wachtwoord" required="required">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" placeholder="Bevestig wachtwoord" required="required">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="button-1 create-account">Maak account aan</button>
-            </div>
+            <input class="input-names" type="text" placeholder="Voornaam" required="required">
+            <input class="input-names" type="text" placeholder="Achternaam" required="required">
+            <input class="input" type="email" placeholder="naam@emample.com" required="required">
+            <p>Dit wordt je nieuwe gebruikersnaam.</p>
+            <input class="input" type="password" placeholder="Wachtwoord" required="required">
+            <input class="input" type="password" placeholder="Bevestig wachtwoord" required="required">
+            <button type="submit" class="button-1 create-account">Maak account aan</button>
         </form>
     </div>
 
