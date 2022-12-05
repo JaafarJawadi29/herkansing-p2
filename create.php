@@ -10,9 +10,10 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include 'assets/header.php'; ?>
+    <?php include 'assets/database.php'; ?>
     <div class="container">
-        <img class="logo-create" src="assets/img/Image4.png" alt="Logo van ServiceIT">
+        <img class="logo-create" src="assets/svg/Image1.svg" alt="Logo van ServiceIT">
 
         <h1>Maak een account aan</h1>
 

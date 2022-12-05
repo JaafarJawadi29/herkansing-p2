@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2137.76 2140.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Naamloos_verloop_3);
+      }
+
+      .cls-2 {
+        fill: url(#Naamloos_verloop_5);
+      }
+
+      .cls-3 {
+        fill: url(#Naamloos_verloop_5-3);
+      }
+
+      .cls-4 {
+        fill: url(#Naamloos_verloop_5-2);
+      }
+
+      .cls-5 {
+        fill: url(#Naamloos_verloop_3-9);
+      }
+
+      .cls-6 {
+        fill: url(#Naamloos_verloop_3-8);
+      }
+
+      .cls-7 {
+        fill: url(#Naamloos_verloop_3-7);
+      }
+
+      .cls-8 {
+        fill: url(#Naamloos_verloop_3-6);
+      }
+
+      .cls-9 {
+        fill: url(#Naamloos_verloop_3-3);
+      }
+
+      .cls-10 {
+        fill: url(#Naamloos_verloop_3-5);
+      }
+
+      .cls-11 {
+        fill: url(#Naamloos_verloop_3-2);
+      }
+
+      .cls-12 {
+        fill: url(#Naamloos_verloop_3-4);
+      }
+
+      .cls-13 {
+        fill: url(#Naamloos_verloop_3-30);
+      }
+
+      .cls-14 {
+        fill: url(#Naamloos_verloop_3-36);
+      }
+
+      .cls-15 {
+        fill: url(#Naamloos_verloop_3-34);
+      }
+
+      .cls-16 {
+        fill: url(#Naamloos_verloop_3-33);
+      }
+
+      .cls-17 {
+        fill: url(#Naamloos_verloop_3-37);
+      }
+
+      .cls-18 {
+        fill: url(#Naamloos_verloop_3-38);
+      }
+
+      .cls-19 {
+        fill: url(#Naamloos_verloop_3-32);
+      }
+
+      .cls-20 {
+        fill: url(#Naamloos_verloop_3-31);
+      }
+
+      .cls-21 {
+        fill: url(#Naamloos_verloop_3-39);
+      }
+
+      .cls-22 {
+        fill: url(#Naamloos_verloop_3-35);
+      }
+
+      .cls-23 {
+        fill: url(#Naamloos_verloop_3-51);
+      }
+
+      .cls-24 {
+        fill: url(#Naamloos_verloop_3-55);
+      }
+
+      .cls-25 {
+        fill: url(#Naamloos_verloop_3-93);
+      }
+
+      .cls-26 {
+        fill: url(#Naamloos_verloop_3-92);
+      }
+
+      .cls-27 {
+        fill: url(#Naamloos_verloop_3-91);
+      }
+
+      .cls-28 {
+        fill: url(#Naamloos_verloop_3-90);
+      }
+
+      .cls-29 {
+        fill: url(#Naamloos_verloop_3-96);
+      }
+
+      .cls-30 {
+        fill: url(#Naamloos_verloop_3-68);
+      }
+
+      .cls-31 {
+        fill: url(#Naamloos_verloop_3-69);
+      }
+
+      .cls-32 {
+        fill: url(#Naamloos_verloop_3-66);
+      }
+
+      .cls-33 {
+        fill: url(#Naamloos_verloop_3-62);
+      }
+
+      .cls-34 {
+        fill: url(#Naamloos_verloop_3-63);
+      }
+
+      .cls-35 {
+        fill: url(#Naamloos_verloop_3-60);
+      }
+
+      .cls-36 {
+        fill: url(#Naamloos_verloop_3-61);
+      }
+
+      .cls-37 {
+        fill: url(#Naamloos_verloop_3-67);
+      }
+
+      .cls-38 {
+        fill: url(#Naamloos_verloop_3-64);
+      }
+
+      .cls-39 {
+        fill: url(#Naamloos_verloop_3-65);
+      }
+
+      .cls-40 {
+        fill: url(#Naamloos_verloop_3-85);
+      }
+
+      .cls-41 {
+        fill: url(#Naamloos_verloop_3-84);
+      }
+
+      .cls-42 {
+        fill: url(#Naamloos_verloop_3-86);
+      }
+
+      .cls-43 {
+        fill: url(#Naamloos_verloop_3-89);
+      }
+
+      .cls-44 {
+        fill: url(#Naamloos_verloop_3-88);
+      }
+
+      .cls-45 {
+        fill: url(#Naamloos_verloop_3-82);
+      }
+
+      .cls-46 {
+        fill: url(#Naamloos_verloop_3-87);
+      }
+
+      .cls-47 {
+        fill: url(#Naamloos_verloop_3-81);
+      }
+
+      .cls-48 {
+        fill: url(#Naamloos_verloop_3-83);
+      }
+
+      .cls-49 {
+        fill: url(#Naamloos_verloop_3-80);
+      }
+
+      .cls-50 {
+        fill: url(#Naamloos_verloop_3-95);
+      }
+
+      .cls-51 {
+        fill: url(#Naamloos_verloop_3-94);
+      }
+
+      .cls-52 {
+        fill: url(#Naamloos_verloop_3-20);
+      }
+
+      .cls-53 {
+        fill: url(#Naamloos_verloop_3-56);
+      }
+
+      .cls-54 {
+        fill: url(#Naamloos_verloop_3-54);
+      }
+
+      .cls-55 {
+        fill: url(#Naamloos_verloop_3-53);
+      }
+
+      .cls-56 {
+        fill: url(#Naamloos_verloop_3-26);
+      }
+
+      .cls-57 {
+        fill: url(#Naamloos_verloop_3-57);
+      }
+
+      .cls-58 {
+        fill: url(#Naamloos_verloop_3-58);
+      }
+
+      .cls-59 {
+        fill: url(#Naamloos_verloop_3-59);
+      }
+
+      .cls-60 {
+        fill: url(#Naamloos_verloop_3-52);
+      }
+
+      .cls-61 {
+        fill: url(#Naamloos_verloop_3-50);
+      }
+
+      .cls-62 {
+        fill: url(#Naamloos_verloop_3-23);
+      }
+
+      .cls-63 {
+        fill: url(#Naamloos_verloop_3-24);
+      }
+
+      .cls-64 {
+        fill: url(#Naamloos_verloop_3-21);
+      }
+
+      .cls-65 {
+        fill: url(#Naamloos_verloop_3-22);
+      }
+
+      .cls-66 {
+        fill: url(#Naamloos_verloop_3-27);
+      }
+
+      .cls-67 {
+        fill: url(#Naamloos_verloop_3-28);
+      }
+
+      .cls-68 {
+        fill: url(#Naamloos_verloop_3-25);
+      }
+
+      .cls-69 {
+        fill: url(#Naamloos_verloop_3-29);
+      }
+
+      .cls-70 {
+        fill: url(#Naamloos_verloop_3-42);
+      }
+
+      .cls-71 {
+        fill: url(#Naamloos_verloop_3-41);
+      }
+
+      .cls-72 {
+        fill: url(#Naamloos_verloop_3-46);
+      }
+
+      .cls-73 {
+        fill: url(#Naamloos_verloop_3-43);
+      }
+
+      .cls-74 {
+        fill: url(#Naamloos_verloop_3-40);
+      }
+
+      .cls-75 {
+        fill: url(#Naamloos_verloop_3-45);
+      }
+
+      .cls-76 {
+        fill: url(#Naamloos_verloop_3-47);
+      }
+
+      .cls-77 {
+        fill: url(#Naamloos_verloop_3-44);
+      }
+
+      .cls-78 {
+        fill: url(#Naamloos_verloop_3-49);
+      }
+
+      .cls-79 {
+        fill: url(#Naamloos_verloop_3-48);
+      }
+
+      .cls-80 {
+        fill: url(#Naamloos_verloop_3-14);
+      }
+
+      .cls-81 {
+        fill: url(#Naamloos_verloop_3-13);
+      }
+
+      .cls-82 {
+        fill: url(#Naamloos_verloop_3-12);
+      }
+
+      .cls-83 {
+        fill: url(#Naamloos_verloop_3-15);
+      }
+
+      .cls-84 {
+        fill: url(#Naamloos_verloop_3-11);
+      }
+
+      .cls-85 {
+        fill: url(#Naamloos_verloop_3-10);
+      }
+
+      .cls-86 {
+        fill: url(#Naamloos_verloop_3-19);
+      }
+
+      .cls-87 {
+        fill: url(#Naamloos_verloop_3-18);
+      }
+
+      .cls-88 {
+        fill: url(#Naamloos_verloop_3-17);
+      }
+
+      .cls-89 {
+        fill: url(#Naamloos_verloop_3-16);
+      }
+
+      .cls-90 {
+        fill: url(#Naamloos_verloop_3-75);
+      }
+
+      .cls-91 {
+        fill: url(#Naamloos_verloop_3-76);
+      }
+
+      .cls-92 {
+        fill: url(#Naamloos_verloop_3-78);
+      }
+
+      .cls-93 {
+        fill: url(#Naamloos_verloop_3-74);
+      }
+
+      .cls-94 {
+        fill: url(#Naamloos_verloop_3-79);
+      }
+
+      .cls-95 {
+        fill: url(#Naamloos_verloop_3-77);
+      }
+
+      .cls-96 {
+        fill: url(#Naamloos_verloop_3-71);
+      }
+
+      .cls-97 {
+        fill: url(#Naamloos_verloop_3-73);
+      }
+
+      .cls-98 {
+        fill: url(#Naamloos_verloop_3-70);
+      }
+
+      .cls-99 {
+        fill: url(#Naamloos_verloop_3-72);
+      }
+
+      .cls-100 {
+        opacity: .25;
+      }
+
+      .cls-101 {
+        opacity: .5;
+      }
+
+      .cls-102 {
+        opacity: .75;
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop_3" data-name="Naamloos verloop 3" x1="938.02" y1="0" x2="938.02" y2="102.4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b099fc"/>
+      <stop offset="1" stop-color="#6a48e0"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_3-2" data-name="Naamloos verloop 3" x1="256.05" y1="389.31" x2="256.05" y2="493.16" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-3" data-name="Naamloos verloop 3" x1="443.31" y1="1830.34" x2="443.31" y2="1932.73" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-4" data-name="Naamloos verloop 3" x1="2086.45" y1="1155.4" x2="2086.45" y2="1257.84" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-5" data-name="Naamloos verloop 3" x1="51.18" y1="879.92" x2="51.18" y2="982.29" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-6" data-name="Naamloos verloop 3" x1="1206.17" y1=".14" x2="1206.17" y2="102.53" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-7" data-name="Naamloos verloop 3" x1="1881.9" y1="1645.86" x2="1881.9" y2="1748.55" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-8" data-name="Naamloos verloop 3" x1="253.36" y1="1640.84" x2="253.36" y2="1744.47" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-9" data-name="Naamloos verloop 3" x1="446.82" y1="204.43" x2="446.82" y2="306.99" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-10" data-name="Naamloos verloop 3" x1="2086.51" y1="884.74" x2="2086.51" y2="988.55" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-11" data-name="Naamloos verloop 3" x1="679.71" y1="67.42" x2="679.71" y2="169.88" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-12" data-name="Naamloos verloop 3" x1="118.28" y1="1409.34" x2="118.28" y2="1511.95" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-13" data-name="Naamloos verloop 3" x1="51.19" y1="1150.83" x2="51.19" y2="1253.59" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-14" data-name="Naamloos verloop 3" x1="2018.88" y1="625.62" x2="2018.88" y2="727.86" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-15" data-name="Naamloos verloop 3" x1="1457.75" y1="1971.61" x2="1457.75" y2="2073.92" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-16" data-name="Naamloos verloop 3" x1="1697.82" y1="204.71" x2="1697.82" y2="306.96" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-17" data-name="Naamloos verloop 3" x1="2014.9" y1="1413.5" x2="2014.9" y2="1515.97" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-18" data-name="Naamloos verloop 3" x1="117.89" y1="622.26" x2="117.89" y2="724.84" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-19" data-name="Naamloos verloop 3" x1="1199.45" y1="2038.41" x2="1199.45" y2="2140.83" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-20" data-name="Naamloos verloop 3" x1="676.05" y1="1964.67" x2="676.05" y2="2066.99" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-21" data-name="Naamloos verloop 3" x1="1693.11" y1="1837.08" x2="1693.11" y2="1939.48" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-22" data-name="Naamloos verloop 3" x1="933.8" y1="2035.23" x2="933.8" y2="2137.6" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-23" data-name="Naamloos verloop 3" x1="1884.89" y1="394.8" x2="1884.89" y2="497.34" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-24" data-name="Naamloos verloop 3" x1="1469.09" y1="70.95" x2="1469.09" y2="173.11" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-25" data-name="Naamloos verloop 3" x1="293.3" y1="1470.38" x2="293.3" y2="1561.31" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-26" data-name="Naamloos verloop 3" x1="170.9" y1="1021.4" x2="170.9" y2="1112.46" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-27" data-name="Naamloos verloop 3" x1="1075.53" y1="1912.04" x2="1075.53" y2="2002.85" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-28" data-name="Naamloos verloop 3" x1="1932.53" y1="776.36" x2="1932.53" y2="865.62" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-29" data-name="Naamloos verloop 3" x1="1521.93" y1="1792.17" x2="1521.93" y2="1882.98" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-30" data-name="Naamloos verloop 3" x1="1697.35" y1="375.31" x2="1697.35" y2="465.94" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-31" data-name="Naamloos verloop 3" x1="626.1" y1="1795.4" x2="626.1" y2="1886.21" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-32" data-name="Naamloos verloop 3" x1="829.81" y1="151.61" x2="829.81" y2="240.23" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-33" data-name="Naamloos verloop 3" x1="203.51" y1="1254.84" x2="203.51" y2="1345.81" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-34" data-name="Naamloos verloop 3" x1="613.09" y1="241.06" x2="613.09" y2="332.09" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-35" data-name="Naamloos verloop 3" x1="1841.06" y1="559.32" x2="1841.06" y2="649.94" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-36" data-name="Naamloos verloop 3" x1="1708.12" y1="1646.98" x2="1708.12" y2="1737.92" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-37" data-name="Naamloos verloop 3" x1="1306.39" y1="1882.92" x2="1306.39" y2="1971.61" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-38" data-name="Naamloos verloop 3" x1="843.88" y1="1883.37" x2="843.88" y2="1973.72" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-39" data-name="Naamloos verloop 3" x1="287.6" y1="572.45" x2="287.6" y2="663.13" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-40" data-name="Naamloos verloop 3" x1="439.3" y1="1655.98" x2="439.3" y2="1745.43" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-41" data-name="Naamloos verloop 3" x1="1849.17" y1="1459.26" x2="1849.17" y2="1547.93" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-42" data-name="Naamloos verloop 3" x1="1934.52" y1="1242.84" x2="1934.52" y2="1332.04" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-43" data-name="Naamloos verloop 3" x1="429.05" y1="388.47" x2="429.05" y2="476.97" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-44" data-name="Naamloos verloop 3" x1="1512.26" y1="233.76" x2="1512.26" y2="324.39" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-45" data-name="Naamloos verloop 3" x1="1965.87" y1="1009.99" x2="1965.87" y2="1098.86" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-46" data-name="Naamloos verloop 3" x1="1061.39" y1="119.65" x2="1061.39" y2="208.41" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-47" data-name="Naamloos verloop 3" x1="1298.24" y1="148.01" x2="1298.24" y2="236.69" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-48" data-name="Naamloos verloop 3" x1="195.78" y1="791.49" x2="195.78" y2="880.2" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-49" data-name="Naamloos verloop 3" x1="427.17" y1="1528.01" x2="427.17" y2="1610.35" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-50" data-name="Naamloos verloop 3" x1="577.99" y1="1678.38" x2="577.99" y2="1759.54" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-51" data-name="Naamloos verloop 3" x1="1877.86" y1="929.27" x2="1877.86" y2="1010.52" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-52" data-name="Naamloos verloop 3" x1="429.19" y1="540.61" x2="429.19" y2="621.86" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-53" data-name="Naamloos verloop 3" x1="1178.24" y1="1838.03" x2="1178.24" y2="1919.37" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-54" data-name="Naamloos verloop 3" x1="966.61" y1="1837.73" x2="966.61" y2="1918.95" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-55" data-name="Naamloos verloop 3" x1="266.99" y1="1138.04" x2="266.99" y2="1219.28" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-56" data-name="Naamloos verloop 3" x1="763.2" y1="282.81" x2="763.2" y2="364.03" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-57" data-name="Naamloos verloop 3" x1="579.22" y1="388.75" x2="579.22" y2="469.93" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-58" data-name="Naamloos verloop 3" x1="1875.92" y1="1141.47" x2="1875.92" y2="1222.71" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-59" data-name="Naamloos verloop 3" x1="761.48" y1="1783.96" x2="761.48" y2="1865.18" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-60" data-name="Naamloos verloop 3" x1="1566.59" y1="1681.91" x2="1566.59" y2="1763.13" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-61" data-name="Naamloos verloop 3" x1="263.83" y1="929.24" x2="263.83" y2="1010.37" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-62" data-name="Naamloos verloop 3" x1="1386.26" y1="282.87" x2="1386.26" y2="363.9" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-63" data-name="Naamloos verloop 3" x1="966.54" y1="229.68" x2="966.54" y2="310.85" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-64" data-name="Naamloos verloop 3" x1="1822.88" y1="1346.19" x2="1822.88" y2="1427.44" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-65" data-name="Naamloos verloop 3" x1="1382.89" y1="1785.54" x2="1382.89" y2="1867.9" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-66" data-name="Naamloos verloop 3" x1="1183.62" y1="229.62" x2="1183.62" y2="310.77" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-67" data-name="Naamloos verloop 3" x1="1717.95" y1="1530.29" x2="1717.95" y2="1611.58" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-68" data-name="Naamloos verloop 3" x1="1822" y1="723.99" x2="1822" y2="805.2" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-69" data-name="Naamloos verloop 3" x1="323.16" y1="721.43" x2="323.16" y2="802.71" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-70" data-name="Naamloos verloop 3" x1="323.18" y1="1345.29" x2="323.18" y2="1426.63" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-71" data-name="Naamloos verloop 3" x1="1716.24" y1="540.13" x2="1716.24" y2="621.26" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-72" data-name="Naamloos verloop 3" x1="1566.95" y1="389.58" x2="1566.95" y2="470.68" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-73" data-name="Naamloos verloop 3" x1="1249.15" y1="339.64" x2="1249.15" y2="412.58" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-74" data-name="Naamloos verloop 3" x1="1780.42" y1="1025.77" x2="1780.42" y2="1098.53" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-75" data-name="Naamloos verloop 3" x1="1759.23" y1="1209.28" x2="1759.23" y2="1282.1" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-76" data-name="Naamloos verloop 3" x1="455.68" y1="1392.19" x2="455.68" y2="1462.82" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-77" data-name="Naamloos verloop 3" x1="1066.98" y1="318.02" x2="1066.98" y2="388.64" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-78" data-name="Naamloos verloop 3" x1="450.14" y1="681.6" x2="450.14" y2="752.48" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-79" data-name="Naamloos verloop 3" x1="381.8" y1="1219.34" x2="381.8" y2="1291.7" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-80" data-name="Naamloos verloop 3" x1="1075.48" y1="1741.99" x2="1075.48" y2="1812.99" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-81" data-name="Naamloos verloop 3" x1="1568.57" y1="522.92" x2="1568.57" y2="593.55" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-82" data-name="Naamloos verloop 3" x1="708.36" y1="416.94" x2="708.36" y2="487.58" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-83" data-name="Naamloos verloop 3" x1="379.61" y1="851.58" x2="379.61" y2="922.2" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-84" data-name="Naamloos verloop 3" x1="1576.05" y1="1533.52" x2="1576.05" y2="1604.14" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-85" data-name="Naamloos verloop 3" x1="717.78" y1="1650.18" x2="717.78" y2="1721.16" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-86" data-name="Naamloos verloop 3" x1="890.29" y1="1720.23" x2="890.29" y2="1791.34" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-87" data-name="Naamloos verloop 3" x1="1755.94" y1="841.06" x2="1755.94" y2="912.28" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-88" data-name="Naamloos verloop 3" x1="1681.97" y1="668.77" x2="1681.97" y2="741.3" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-89" data-name="Naamloos verloop 3" x1="879.68" y1="344.02" x2="879.68" y2="416.77" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-90" data-name="Naamloos verloop 3" x1="1689.02" y1="1384.43" x2="1689.02" y2="1455.49" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-91" data-name="Naamloos verloop 3" x1="353.53" y1="1038.49" x2="353.53" y2="1109.42" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-92" data-name="Naamloos verloop 3" x1="1420.27" y1="410.45" x2="1420.27" y2="482.84" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-93" data-name="Naamloos verloop 3" x1="1430.35" y1="1646.56" x2="1430.35" y2="1717.22" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-94" data-name="Naamloos verloop 3" x1="1258.9" y1="1717.23" x2="1258.9" y2="1787.87" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-95" data-name="Naamloos verloop 3" x1="568.73" y1="1539.64" x2="568.73" y2="1610.75" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_3-96" data-name="Naamloos verloop 3" x1="561.67" y1="530.37" x2="561.67" y2="601.11" xlink:href="#Naamloos_verloop_3"/>
+    <linearGradient id="Naamloos_verloop_5" data-name="Naamloos verloop 5" x1="1499.5" y1="929.19" x2="1499.5" y2="967.31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b099fc"/>
+      <stop offset="1" stop-color="#6a48e0"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_5-2" data-name="Naamloos verloop 5" y1="988.46" y2="1147.44" xlink:href="#Naamloos_verloop_5"/>
+    <linearGradient id="Naamloos_verloop_5-3" data-name="Naamloos verloop 5" x1="1573.26" y1="929.19" x2="1573.26" y2="1147.79" xlink:href="#Naamloos_verloop_5"/>
+  </defs>
+  <g id="FJZC2a.tif">
+    <g>
+      <path class="cls-1" d="m938.97,0c28.88.21,50.47,22.47,50.24,51.79-.22,28.45-23.37,51.02-51.89,50.6-28.39-.42-50.55-23.37-50.5-52.29.05-28.12,23.15-50.32,52.15-50.1Z"/>
+      <path class="cls-11" d="m307.23,442.3c-.26,28.44-22.98,50.7-51.94,50.86-26.73.15-50.89-25.14-50.43-52.78.47-27.95,24.99-51.92,52.24-51.05,28.31.9,50.39,24.23,50.13,52.97Z"/>
+      <path class="cls-9" d="m442.87,1932.73c-28.7-.08-50.85-22.51-50.75-51.38.1-28.68,22.7-51.13,51.32-51,28.33.13,51.2,23.23,51.06,51.58-.14,28.39-22.99,50.88-51.63,50.8Z"/>
+      <path class="cls-12" d="m2137.66,1207.51c-.34,28.57-23.35,50.9-51.85,50.33-27.9-.57-51.18-24.73-50.56-52.47.63-28.26,23.8-50.23,52.69-49.96,28.68.27,50.07,22.68,49.72,52.11Z"/>
+      <path class="cls-10" d="m102.36,932.11c-.15,29.73-21.17,50.27-51.32,50.18-28.58-.09-51.37-23-51.03-51.32.32-27.57,24.71-51.43,52.19-51.04,28.4.4,50.32,23.2,50.17,52.18Z"/>
+      <path class="cls-8" d="m1205.63,102.53c-29.98-.06-50.82-20.88-50.74-50.67.08-28.79,22.56-51.68,50.8-51.73,27.24-.05,51.42,24.13,51.75,51.72.33,27.76-23.16,50.73-51.81,50.67Z"/>
+      <path class="cls-7" d="m1881.76,1645.87c29.62-.33,51.3,20.8,51.47,50.15.17,28.74-22.15,52.13-50.13,52.53-27.04.39-51.85-23.79-52.52-51.2-.69-27.74,22.6-51.16,51.18-51.48Z"/>
+      <path class="cls-6" d="m304.75,1692.4c.05,28.53-23.01,52.15-50.84,52.07-27.36-.08-52.09-24.7-51.94-51.71.16-27.72,24.35-52.07,51.58-51.93,28.56.15,51.15,22.9,51.2,51.56Z"/>
+      <path class="cls-5" d="m395.63,255.17c.1-30.11,20.66-50.7,50.68-50.73,28.71-.04,51.39,22.11,51.7,50.49.3,27.01-24.48,52.1-51.41,52.06-28.28-.03-51.06-23.19-50.97-51.82Z"/>
+      <path class="cls-85" d="m2137.75,937.29c-.23,28.62-23.84,52.11-51.5,51.23-27.57-.87-51.38-25.52-50.98-52.77.4-27.44,25.49-51.85,52.44-51,28.87.91,50.27,23.38,50.03,52.54Z"/>
+      <path class="cls-84" d="m678.81,169.88c-29.84.08-50.07-19.71-50.32-49.22-.25-29.4,21.7-52.95,49.64-53.24,26.67-.28,53.11,25.6,52.8,51.67-.34,28.84-22.78,50.71-52.12,50.79Z"/>
+      <path class="cls-82" d="m169.5,1460.09c-.08,28.66-22.8,51.81-50.89,51.86-27.78.05-51.39-23.57-51.55-51.58-.16-28.35,22.58-51,51.24-51.03,29.31-.03,51.28,21.75,51.2,50.75Z"/>
+      <path class="cls-81" d="m102.37,1201.52c.03,28.91-22.09,51.71-50.5,52.07C25.27,1253.92,0,1228.71,0,1201.83c0-28.04,23.25-51.03,51.55-51,29.76.03,50.78,21.01,50.82,50.7Z"/>
+      <path class="cls-80" d="m2017.28,727.86c-29.44-.31-50.08-22.14-49.56-52.4.48-27.87,23.19-50.03,51.08-49.84,27.77.19,51.71,24.6,51.24,52.27-.48,28.35-23.63,50.28-52.76,49.97Z"/>
+      <path class="cls-83" d="m1457.81,1971.61c29.81-.1,51.15,21.13,51.18,50.95.03,28.72-22.97,51.69-51.45,51.36-27.9-.32-51.45-24.56-51.02-52.53.42-27.45,23.33-49.69,51.29-49.78Z"/>
+      <path class="cls-89" d="m1698.09,204.71c29.7-.1,50.95,21.28,50.82,51.09-.13,27.97-22.27,50.74-49.73,51.16-27.88.42-52.16-23.17-52.45-50.96-.3-28.49,22.44-51.19,51.37-51.29Z"/>
+      <path class="cls-88" d="m2014.82,1515.97c-29.64.14-51.13-20.92-51.34-50.35-.21-28.52,22.28-51.75,50.45-52.11,26.99-.35,52.19,24.31,52.39,51.26.21,28.05-22.94,51.06-51.5,51.2Z"/>
+      <path class="cls-87" d="m117.1,724.84c-28.97.06-50.15-20.75-50.46-49.59-.32-29.17,21.84-52.7,49.9-52.99,26.98-.27,52.19,24.48,52.58,51.65.41,27.91-23.04,50.86-52.03,50.92Z"/>
+      <path class="cls-86" d="m1200.28,2038.41c29.34.23,50.83,22.36,50.38,51.86-.43,27.73-23.13,50.36-50.7,50.56-27.86.2-51.77-23.74-51.7-51.75.07-28.54,23.03-50.9,52.02-50.67Z"/>
+      <path class="cls-52" d="m674.64,2066.99c-28.91-.23-50.31-22.72-49.81-52.36.46-27.81,23.17-50.06,50.99-49.96,27.99.1,51.77,24.14,51.46,52.02-.31,28.17-23.71,50.53-52.64,50.3Z"/>
+      <path class="cls-64" d="m1693.04,1837.08c28.73.15,52.27,23.74,51.41,51.53-.84,27.03-24.48,50.46-51.31,50.86-27.98.42-51.41-23.11-51.38-51.6.03-29.58,21.6-50.94,51.28-50.79Z"/>
+      <path class="cls-65" d="m882.53,2086.35c-.06-29.28,21.98-51.32,51.14-51.12,28.59.2,51.95,23.7,51.4,51.7-.54,27.31-23.71,50.28-51.07,50.66-28.37.4-51.4-22.54-51.46-51.25Z"/>
+      <path class="cls-62" d="m1884.21,394.8c28.86-.26,51.88,22.19,51.89,50.62.02,28.09-23.78,52.1-51.46,51.92-27.12-.18-50.45-23.36-50.95-50.61-.53-28.84,21.68-51.67,50.51-51.93Z"/>
+      <path class="cls-63" d="m1468.79,173.11c-28.64-.15-51.68-23.6-50.88-51.78.76-26.88,24.54-50.18,51.41-50.38,28.06-.2,51.18,23.26,50.97,51.73-.22,29.45-21.8,50.59-51.5,50.43Z"/>
+      <g class="cls-102">
+        <path class="cls-68" d="m292.65,1470.39c23.54-.44,45.33,20.5,46.09,44.28.77,24.25-21.14,46.72-45.48,46.64-23.45-.07-45.14-21.64-45.41-45.14-.27-23.25,21.36-45.35,44.81-45.78Z"/>
+        <path class="cls-56" d="m126.41,1067.25c-.12-24.79,19.61-45.6,43.47-45.85,25.11-.26,45.69,20.5,45.51,45.91-.18,24.38-20.87,45.29-44.69,45.14-24.13-.15-44.18-20.61-44.3-45.2Z"/>
+        <path class="cls-66" d="m1031.14,1957.44c0-24.76,19.62-45.05,43.91-45.4,24.73-.35,45.14,20.69,44.87,46.25-.26,24.49-20.79,44.88-44.85,44.55-24.22-.33-43.92-20.7-43.93-45.41Z"/>
+        <path class="cls-67" d="m1931.5,865.61c-24.36-.38-44.53-20.94-44.44-45.29.09-24.54,21.78-44.72,47.23-43.94,24.34.75,44.68,22.09,43.69,45.85-1.01,24.2-21.98,43.77-46.47,43.38Z"/>
+        <path class="cls-69" d="m1476.84,1837.39c.25-24.18,20.82-44.93,44.82-45.22,24.26-.29,46.2,22.27,45.33,46.63-.86,24.03-22.45,44.8-45.92,44.16-24.36-.66-44.48-21.39-44.23-45.57Z"/>
+        <path class="cls-13" d="m1741.78,420.69c-.01,24.81-20.21,45.31-44.59,45.25-24.45-.06-44.25-20.31-44.27-45.29-.03-25.04,20.1-45.63,44.29-45.33,24.63.31,44.58,20.63,44.57,45.37Z"/>
+        <path class="cls-20" d="m671.15,1840.28c.15,23.96-20.34,45.3-44.08,45.92-24.16.63-46.27-21.41-46.04-45.88.23-23.99,21.2-44.85,45.13-44.92,23.8-.07,44.83,20.91,44.98,44.88Z"/>
+        <path class="cls-19" d="m830.09,151.61c25.12.08,44.93,19.38,45.2,44.05.27,23.99-20.6,44.51-45.31,44.56-25.58.05-46.18-20.49-45.66-45.53.52-24.61,20.22-43.17,45.76-43.09Z"/>
+        <path class="cls-16" d="m248.09,1299.87c.23,24.62-19.19,45.13-43.51,45.92-24.39.8-45.8-20.71-45.65-45.86.14-24.3,20.83-45.17,44.69-45.09,24.05.08,44.23,20.52,44.47,45.03Z"/>
+        <path class="cls-15" d="m657.42,287.74c-.29,24.43-20.74,44.66-44.81,44.34-24.23-.32-43.89-20.78-43.85-45.64.03-24.67,20.28-45.42,44.31-45.39,25.28.03,44.67,20.45,44.35,46.69Z"/>
+        <path class="cls-22" d="m1841.1,559.32c23.6.1,45.07,21.4,45.28,44.92.22,24.47-21.62,46.16-46,45.69-23.56-.46-44.87-22.21-44.66-45.57.22-23.54,21.98-45.14,45.37-45.04Z"/>
+        <path class="cls-14" d="m1752.4,1692.05c.12,25.04-19.01,45.23-43.46,45.85-24.13.62-44.73-19.6-45.09-44.28-.39-25.97,19.31-46.68,44.37-46.65,24.37.03,44.06,20.11,44.18,45.07Z"/>
+        <path class="cls-17" d="m1307.16,1971.61c-25.26.21-45.4-18.92-45.85-43.55-.45-24.74,19.31-44.91,44.2-45.13,25.47-.23,45.69,18.9,45.97,43.49.29,24.92-19.4,44.99-44.32,45.2Z"/>
+        <path class="cls-18" d="m845.35,1883.4c23.65.86,44.83,23.23,43.77,46.22-1.13,24.36-22.37,44.73-45.99,44.09-24.78-.66-45.79-22.99-44.47-47.25,1.31-24.2,22.71-43.93,46.69-43.07Z"/>
+        <path class="cls-21" d="m243.23,617.65c-.1-25.15,18.91-44.86,43.62-45.19,24.97-.34,45.29,20.31,45.12,45.85-.16,23.81-21.64,45.27-44.85,44.82-24.72-.48-43.79-20.24-43.9-45.48Z"/>
+        <path class="cls-74" d="m439.02,1655.98c25.37-.11,44.87,19.16,44.89,44.37.02,24.7-20.04,44.98-44.62,45.08-24.67.1-44.52-19.87-44.6-44.89-.08-25.88,18.39-44.45,44.32-44.56Z"/>
+        <path class="cls-71" d="m1849.59,1547.93c-26.18.18-44.75-17.88-44.98-43.76-.23-26.12,17.9-44.73,43.75-44.9,25.69-.17,45.11,18.53,45.36,43.67.25,25.31-18.89,44.82-44.14,44.99Z"/>
+        <path class="cls-70" d="m1978.83,1287.28c.01,25.3-19.29,44.77-44.38,44.76-25.2-.01-44.15-19.22-44.24-44.86-.1-25.87,18.39-44.36,44.32-44.34,25.88.02,44.29,18.48,44.3,44.44Z"/>
+        <path class="cls-73" d="m428.78,388.47c25.49-.06,44.75,19,44.52,44.06-.23,25.74-18.84,44.43-44.26,44.44-25.48.01-44.25-18.8-44.24-44.34,0-26.52,17.51-44.09,43.98-44.16Z"/>
+        <path class="cls-77" d="m1512.46,324.39c-23.43.22-45.36-21.54-45.51-45.16-.15-23.53,21.29-45.07,45.24-45.46,23.26-.38,45.27,21.52,45.38,45.14.11,23.59-21.38,45.26-45.11,45.48Z"/>
+        <path class="cls-75" d="m1968.46,1010.03c24.53.92,43.08,21.79,41.84,47.06-1.21,24.65-21.57,42.59-47.36,41.74-24.29-.8-42.57-21.63-41.53-47.3,1.03-25.24,20.58-42.49,47.05-41.5Z"/>
+        <path class="cls-72" d="m1016.97,163.65c-.09-26.76,17.17-44.09,43.8-44,25.32.08,44.92,19.24,45.03,44.02.11,24.35-20.07,44.51-44.79,44.74-24.97.24-43.95-19.06-44.04-44.76Z"/>
+        <path class="cls-76" d="m1298.14,148.02c25.28-.08,44.62,19.19,44.44,44.27-.19,25.57-18.91,44.25-44.5,44.4-25,.15-44.26-19.27-44.16-44.53.1-26.12,18.07-44.06,44.23-44.14Z"/>
+        <path class="cls-79" d="m151.42,835.69c.02-25.35,19.31-44.49,44.52-44.2,25.58.3,44.08,19.01,44.2,44.72.12,24.92-19.46,44.16-44.77,43.99-26.12-.17-43.97-18.25-43.95-44.51Z"/>
+      </g>
+      <g class="cls-101">
+        <path class="cls-78" d="m427.68,1610.34c-21.41.28-41.94-20.29-41.71-41.78.23-21.01,19.63-40.25,40.88-40.55,21.31-.3,40.69,18.26,41.49,39.74.81,21.79-18.78,42.3-40.66,42.58Z"/>
+        <path class="cls-61" d="m618.59,1719.48c-.23,22.31-17.87,39.97-40.04,40.06-21.83.09-41.7-20.04-41.16-41.7.55-21.98,18.64-39.4,40.98-39.46,23.71-.06,40.47,17.06,40.22,41.1Z"/>
+        <path class="cls-23" d="m1918.48,970.41c-.15,22.53-17.48,39.91-39.98,40.11-23.03.2-41.5-18.12-41.25-40.92.24-21.92,18.41-40.08,40.35-40.33,22.97-.26,41.04,17.91,40.88,41.14Z"/>
+        <path class="cls-60" d="m428.59,540.62c22.54-.38,40.56,16.67,41.2,38.97.67,23.55-16.56,41.91-39.65,42.26-22.9.35-41.63-18-41.57-40.71.06-21.93,18.06-40.15,40.02-40.52Z"/>
+        <path class="cls-55" d="m1218.85,1879.67c-.12,22.51-17.64,39.66-40.55,39.7-22.73.03-40.4-17.25-40.66-39.78-.26-22.07,19.94-42.24,41.59-41.54,21.39.69,39.73,19.96,39.62,41.62Z"/>
+        <path class="cls-54" d="m965.85,1918.94c-22.37-.47-40.29-18.87-39.87-40.93.4-21.28,20.19-40.55,41.35-40.28,22.99.3,40.49,18.99,39.91,42.63-.56,22.77-18.06,39.08-41.39,38.58Z"/>
+        <path class="cls-24" d="m307.61,1179.15c-.03,23.24-16.38,39.9-39.36,40.13-23.46.23-41.78-17.35-41.88-40.18-.09-20.81,19.34-40.63,40.26-41.05,22.69-.46,41.01,17.92,40.98,41.1Z"/>
+        <path class="cls-53" d="m762.1,364.02c-21.24-.28-40.54-19.45-40.59-40.34-.05-20.65,21.94-41.65,42.79-40.86,20.65.78,40.17,20.71,40.59,41.43.41,20.48-20.65,40.05-42.79,39.76Z"/>
+        <path class="cls-57" d="m579.17,469.93c-21.21-.03-41.64-19.3-41.61-39.25.04-21.5,20.21-41.85,41.57-41.93,20.66-.08,41.13,19.58,41.73,40.06.61,20.93-19.89,41.15-41.7,41.12Z"/>
+        <path class="cls-58" d="m1874.87,1222.7c-22.3-.37-40.17-18.24-40.25-40.25-.07-21.36,20.8-41.59,42.27-40.96,21.16.62,40.59,20.43,40.31,41.11-.3,22.08-19.72,40.49-42.34,40.11Z"/>
+        <path class="cls-59" d="m801.99,1825.56c-.58,22.14-19.39,40.24-41.17,39.6-21.15-.62-40.12-20.45-39.88-41.68.26-22.67,19.33-40.25,42.85-39.5,22.7.73,38.81,18.26,38.2,41.58Z"/>
+        <path class="cls-35" d="m1526,1722.94c-.13-23.2,16.42-40.54,39.16-41.03,22.18-.47,42.36,19.25,42.01,41.07-.34,21.3-19.77,40.26-41.17,40.15-22.88-.11-39.87-17.18-40-40.19Z"/>
+        <path class="cls-36" d="m265.6,929.24c23.03.28,39.23,17.31,38.89,40.89-.32,22.49-18.47,40.57-40.38,40.23-21.7-.34-41.78-21.3-40.91-42.72.89-21.94,19.37-38.68,42.4-38.4Z"/>
+        <path class="cls-33" d="m1384.6,363.89c-22.87-.26-39.05-17.21-38.91-40.77.13-22.36,18.32-40.57,40.19-40.25,21.03.31,40.84,20.04,40.96,40.77.12,22.43-18.86,40.51-42.24,40.25Z"/>
+        <path class="cls-34" d="m1007.17,270.41c-.09,22.77-17.7,40.67-39.78,40.44-21.14-.23-41.17-19.66-41.48-40.26-.32-21.11,20.28-41.03,42.3-40.91,22.89.13,39.05,17.02,38.95,40.73Z"/>
+        <path class="cls-38" d="m1864.16,1385.92c.54,20.81-18.95,40.93-40.21,41.51-21.2.58-41.16-18-42.3-39.38-1.11-20.82,18.01-41.16,39.33-41.83,22.82-.72,42.6,17.46,43.18,39.7Z"/>
+        <path class="cls-39" d="m1342.32,1826.1c.22-21.97,18.7-40.54,40.35-40.57,21.06-.02,40.63,19.61,40.79,40.9.16,21.21-19.14,41.11-40.22,41.47-22.16.38-41.16-19.02-40.93-41.8Z"/>
+        <path class="cls-32" d="m1183.47,229.62c22.05-.07,40.72,17.66,41.51,39.43.76,21.05-20.43,42.12-41.97,41.72-20.9-.39-41.18-20.9-40.75-41.2.45-21.32,19.59-39.87,41.21-39.94Z"/>
+        <path class="cls-37" d="m1718.03,1611.57c-23.42.31-40.34-15.96-40.79-39.21-.45-23.36,17.83-42.38,40.42-42.07,21.17.29,40.54,19.65,40.99,40.95.45,21.42-18.3,40.03-40.62,40.33Z"/>
+        <path class="cls-30" d="m1821.87,723.99c23.45-.32,40.38,15.91,40.79,39.1.42,23.32-17.53,42.03-40.39,42.1-20.69.07-40.48-19.71-40.92-40.89-.45-21.44,18.22-40.02,40.52-40.32Z"/>
+        <path class="cls-31" d="m322.23,802.71c-23.14-.2-39.81-17.07-39.66-40.15.13-21.2,19.95-41.54,40.03-41.11,21.95.47,41.62,20.74,41.14,42.41-.49,21.96-18.75,39.06-41.51,38.86Z"/>
+        <path class="cls-98" d="m323.36,1345.29c22.85.13,40.23,17.32,40.42,39.96.18,21.34-18.71,40.86-40.02,41.37-21.59.51-41.43-19.67-41.19-41.88.25-22.45,17.96-39.58,40.79-39.45Z"/>
+        <path class="cls-96" d="m1756.88,580.86c-.28,22.37-18.47,40.61-40.28,40.4-21.79-.22-41.8-20.97-40.96-42.49.85-21.97,19.42-39.01,42.09-38.64,22.92.38,39.44,17.57,39.16,40.73Z"/>
+        <path class="cls-99" d="m1607.53,429.81c.3,22.98-16.32,40.33-39.13,40.85-23.37.54-42.17-17.42-42.03-40.14.13-21.28,19.3-40.68,40.45-40.94,21.25-.27,40.43,18.69,40.71,40.23Z"/>
+      </g>
+      <g class="cls-100">
+        <path class="cls-97" d="m1285.66,375.89c.25,17.85-18.02,36.32-36.29,36.69-17.79.36-36.58-18.17-36.74-36.21-.15-18.23,17.43-36.01,36.31-36.7,17.41-.64,36.45,18.15,36.71,36.23Z"/>
+        <path class="cls-93" d="m1779.77,1025.77c20,.39,36.96,18.18,36.17,37.96-.74,18.6-19.14,35.63-37.54,34.77-19.56-.92-33.96-17.18-33.52-37.84.39-18.24,17.37-35.22,34.88-34.88Z"/>
+        <path class="cls-90" d="m1723.7,1245.16c.13-18.33,16.35-35.46,33.97-35.86,19.44-.45,37.21,17.31,37.09,37.09-.11,18.56-18.18,36.22-36.53,35.71-19.7-.55-34.67-16.56-34.52-36.93Z"/>
+        <path class="cls-91" d="m490.98,1428.42c-.25,20.53-14.9,34.59-35.82,34.39-20.56-.2-35.2-15.16-34.78-35.54.41-20.08,16.18-35.45,35.97-35.08,19.99.38,34.88,15.96,34.63,36.23Z"/>
+        <path class="cls-95" d="m1102.29,353.17c.07,21.25-13.71,35.3-34.76,35.47-21.02.16-35.95-14.22-35.85-34.55.1-20.33,15.28-35.94,35.06-36.07,20.58-.13,35.49,14.61,35.55,35.15Z"/>
+        <path class="cls-92" d="m450.39,681.6c18.23.04,35.66,16.21,36.15,33.54.53,18.74-18.29,37.74-36.98,37.33-18.7-.41-36.47-18.5-35.81-36.47.75-20.47,15.64-34.44,36.65-34.4Z"/>
+        <path class="cls-94" d="m417.37,1256.1c-.22,19.72-16.61,36.01-35.83,35.59-18.56-.4-35.6-18.19-35.31-36.86.29-18.62,18.04-35.79,36.68-35.49,19.72.32,34.68,16.28,34.45,36.75Z"/>
+        <path class="cls-49" d="m1074.32,1812.99c-19.75-.32-35.8-16.88-35.11-36.24.67-18.78,18.64-35.53,37.25-34.74,19.25.82,35.67,17.97,35.3,36.87-.36,18.55-17.8,34.43-37.44,34.11Z"/>
+        <path class="cls-47" d="m1566.92,593.54c-20.15-.32-34.33-15.87-33.73-36.99.56-19.88,15.3-33.94,35.27-33.63,20.3.32,35.95,16.2,35.5,36.05-.45,19.81-16.61,34.89-37.04,34.57Z"/>
+        <path class="cls-45" d="m708.76,487.58c-18.99.16-36.69-16.51-37.03-34.88-.34-18.17,17.3-35.58,36.21-35.76,18.92-.17,36.74,16.61,37.06,34.92.32,18.12-17.37,35.55-36.24,35.71Z"/>
+        <path class="cls-48" d="m379.11,922.19c-19.01-.16-36.29-17.29-35.97-35.65.33-18.54,17.88-35.18,36.88-34.96,18.84.21,36.26,17.58,36.06,35.96-.2,18.38-17.74,34.82-36.97,34.66Z"/>
+        <path class="cls-41" d="m1577.1,1604.14c-20.55.07-36.37-15.09-36.54-35-.16-18.86,16.89-35.59,36.3-35.61,20.31-.03,34.95,15.23,34.68,36.15-.26,20.16-14.49,34.4-34.44,34.47Z"/>
+        <path class="cls-40" d="m753.37,1685.64c.3,21.05-14.07,35.53-35.24,35.52-19.56,0-35.25-14.76-35.94-33.78-.68-18.88,16.16-36.69,35.15-37.19,19.86-.52,35.74,15.11,36.03,35.45Z"/>
+        <path class="cls-42" d="m891.04,1720.24c20.7.2,35.09,15.27,34.56,36.19-.49,19.48-15.69,34.72-34.82,34.91-18.96.19-35.77-16.76-35.82-36.13-.05-20.2,15.39-35.17,36.08-34.97Z"/>
+        <path class="cls-46" d="m1791.26,877.98c-.22,20.23-15.84,34.84-36.66,34.28-19.89-.54-34.12-15.25-33.97-35.13.16-20.32,15.91-36.29,35.58-36.07,18.81.21,35.25,17.53,35.04,36.92Z"/>
+        <path class="cls-44" d="m1717.42,705.43c-.18,19.2-16.94,36.12-35.53,35.87-18.67-.25-35.6-17.81-35.37-36.69.23-19.01,17.13-35.7,36.28-35.83,18.37-.13,34.8,17.27,34.62,36.65Z"/>
+        <path class="cls-43" d="m844.37,379.44c.18-19.42,17.01-36.04,35.82-35.41,18.99.64,35.25,17.91,34.8,36.95-.44,18.6-17.71,35.64-36.28,35.79-17.42.14-34.52-18.45-34.34-37.33Z"/>
+        <path class="cls-28" d="m1724.51,1419.93c-.12,19.97-16.22,36.1-35.51,35.54-18.89-.55-35.81-17.97-35.47-36.52.37-20.07,15.55-34.49,36.35-34.52,20.9-.04,34.75,14.16,34.63,35.51Z"/>
+        <path class="cls-27" d="m353.95,1038.49c21.2.03,35.32,14.34,35.11,35.6-.2,20.38-15.95,35.83-36.02,35.32-17.89-.45-34.86-17.65-35.05-35.5-.2-20.02,15.46-35.45,35.95-35.41Z"/>
+        <path class="cls-26" d="m1384.97,445.78c.29-18.63,16.43-35.08,34.69-35.33,18.73-.26,35.96,17.14,35.94,36.3-.03,19.3-16.53,35.79-36.12,36.1-18.48.28-34.8-17.24-34.5-37.06Z"/>
+        <path class="cls-25" d="m1430.2,1717.22c-20.58.26-35.54-14.69-35.42-35.41.11-20.16,14.26-34.9,33.82-35.24,19.55-.34,36.81,15.64,37.31,34.53.5,18.79-16.4,35.88-35.71,36.12Z"/>
+        <path class="cls-51" d="m1258.62,1717.23c19.84-.21,36.5,15.97,36.37,35.34-.12,18.61-16.12,34.84-34.79,35.29-19.54.47-36.88-15.56-37.4-34.57-.52-18.88,16.34-35.85,35.82-36.06Z"/>
+        <path class="cls-50" d="m604.05,1574.46c0,19.31-16.83,36.47-35.57,36.29-18.98-.18-35.22-17.19-35.06-36.72.16-19.74,14.62-34.11,34.6-34.39,20.71-.29,36.04,14.53,36.03,34.82Z"/>
+        <path class="cls-29" d="m596.96,566.14c.33,20.6-14.19,34.96-35.36,34.97-20.53.01-34.85-13.51-35.24-33.28-.38-19.04,15.93-36.77,34.44-37.44,18.03-.65,35.86,16.98,36.16,35.76Z"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g>
+      <path d="m557.67,1084.37l36.32-3.53c2.19,12.19,6.61,21.13,13.31,26.85,6.67,5.72,15.69,8.58,27.05,8.58,12.02,0,21.08-2.55,27.19-7.62,6.08-5.1,9.14-11.04,9.14-17.85,0-4.37-1.29-8.1-3.84-11.15-2.58-3.08-7.05-5.75-13.44-8.02-4.37-1.51-14.34-4.2-29.89-8.07-20.01-4.96-34.05-11.04-42.12-18.3-11.35-10.15-17.03-22.56-17.03-37.19,0-9.42,2.66-18.22,8-26.43,5.34-8.18,13.03-14.43,23.09-18.72,10.03-4.29,22.17-6.45,36.38-6.45,23.21,0,40.67,5.1,52.41,15.27,11.71,10.17,17.88,23.77,18.47,40.72l-37.33,1.65c-1.6-9.5-5.03-16.34-10.29-20.49-5.25-4.18-13.13-6.25-23.64-6.25s-19.34,2.24-25.48,6.7c-3.95,2.86-5.93,6.67-5.93,11.46,0,4.37,1.85,8.13,5.55,11.24,4.71,3.95,16.14,8.07,34.3,12.33,18.16,4.32,31.59,8.74,40.3,13.31,8.69,4.6,15.5,10.85,20.43,18.81,4.9,7.93,7.37,17.77,7.37,29.43,0,10.59-2.94,20.54-8.83,29.76-5.89,9.28-14.21,16.14-24.97,20.63-10.76,4.51-24.17,6.75-40.23,6.75-23.37,0-41.32-5.41-53.85-16.2-12.53-10.82-20.01-26.54-22.45-47.22Z"/>
+      <path d="m816.72,1101.89l35.31,5.91c-4.54,12.98-11.71,22.81-21.5,29.6-9.81,6.75-22.06,10.15-36.77,10.15-23.29,0-40.53-7.6-51.71-22.81-8.83-12.19-13.24-27.58-13.24-46.19,0-22.2,5.8-39.57,17.4-52.13,11.6-12.58,26.27-18.86,44.01-18.86,19.93,0,35.65,6.59,47.17,19.73,11.52,13.17,17.03,33.32,16.52,60.48h-88.79c.25,10.51,3.11,18.69,8.58,24.52,5.47,5.86,12.28,8.77,20.43,8.77,5.55,0,10.22-1.51,14-4.54,3.78-3.03,6.64-7.9,8.58-14.63Zm2.02-35.82c-.25-10.26-2.9-18.05-7.95-23.4-5.04-5.32-11.18-8.02-18.41-8.02-7.74,0-14.13,2.83-19.17,8.46-5.04,5.63-7.53,13.28-7.44,22.95h52.97Z"/>
+      <path d="m916.73,1144.52h-35.44v-133.94h32.92v19.03c5.63-8.97,10.69-14.91,15.19-17.77,4.5-2.86,9.61-4.29,15.33-4.29,8.07,0,15.85,2.24,23.33,6.7l-10.97,30.88c-5.97-3.87-11.52-5.8-16.65-5.8s-9.16,1.37-12.61,4.09c-3.45,2.75-6.17,7.68-8.13,14.83-1.99,7.15-2.97,22.11-2.97,44.9v41.37Z"/>
+      <path d="m1020.15,1144.52l-53.98-133.94h37.2l25.22,68.36,7.31,22.81c1.93-5.77,3.15-9.61,3.66-11.46,1.18-3.78,2.44-7.57,3.78-11.35l25.48-68.36h36.45l-53.22,133.94h-31.91Z"/>
+      <path d="m1126.97,992.42v-32.79h35.44v32.79h-35.44Zm0,152.1v-133.94h35.44v133.94h-35.44Z"/>
+      <path d="m1315.51,1050.18l-34.93,6.31c-1.18-6.98-3.84-12.25-8.02-15.78-4.15-3.53-9.56-5.27-16.2-5.27-8.83,0-15.88,3.03-21.13,9.14-5.25,6.08-7.88,16.28-7.88,30.58,0,15.89,2.66,27.1,8.02,33.66,5.32,6.56,12.5,9.87,21.5,9.87,6.73,0,12.23-1.93,16.52-5.75,4.29-3.84,7.31-10.4,9.08-19.76l34.81,5.94c-3.62,15.97-10.55,28.05-20.81,36.21-10.26,8.16-24,12.22-41.24,12.22-19.59,0-35.21-6.17-46.85-18.55-11.66-12.33-17.47-29.46-17.47-51.32s5.84-39.32,17.53-51.65c11.69-12.3,27.49-18.47,47.42-18.47,16.31,0,29.27,3.5,38.9,10.54,9.63,7.01,16.55,17.71,20.75,32.09Z"/>
+      <path d="m1419.94,1101.89l35.31,5.91c-4.54,12.98-11.71,22.81-21.5,29.6-9.81,6.75-22.06,10.15-36.77,10.15-23.29,0-40.53-7.6-51.71-22.81-8.83-12.19-13.24-27.58-13.24-46.19,0-22.2,5.8-39.57,17.4-52.13,11.6-12.58,26.27-18.86,44.01-18.86,19.93,0,35.65,6.59,47.17,19.73,11.52,13.17,17.03,33.32,16.52,60.48h-88.79c.25,10.51,3.11,18.69,8.58,24.52,5.47,5.86,12.28,8.77,20.43,8.77,5.55,0,10.22-1.51,14-4.54,3.78-3.03,6.64-7.9,8.58-14.63Zm2.02-35.82c-.25-10.26-2.9-18.05-7.95-23.4-5.04-5.32-11.18-8.02-18.41-8.02-7.74,0-14.13,2.83-19.17,8.46-5.04,5.63-7.53,13.28-7.44,22.95h52.97Z"/>
+    </g>
+    <g>
+      <path class="cls-2" d="m1500.41,929.19c-10.7,0-19.37,8.67-19.37,19.37v18.75h36.93v-38.12h-17.56Z"/>
+      <path class="cls-4" d="m1481.04,1120.9c0,14.66,11.88,26.54,26.54,26.54h10.4v-158.97h-36.93v132.44Z"/>
+    </g>
+    <path class="cls-3" d="m1607.53,1113.03h-19.87c-5.85,0-10.58-4.83-10.58-10.79v-83.79h25.93v-33.14h-25.93v-56.11h-10.13c-15.44,0-27.96,12.77-27.96,28.51v156.17c0,18.46,14.46,33.46,32.46,33.89h0s.41.01.41.01c.13,0,.26,0,.39,0h4.83s30.45,0,30.45,0v-34.76Z"/>
+  </g>
+</svg>
