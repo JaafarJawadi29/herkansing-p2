@@ -121,8 +121,9 @@ a.create-account {
 
 p.psw-create {
   text-align: start;
-  color: #BCBCBC;
+  color: #bcbcbc;
   font-size: 16px;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
