@@ -19,9 +19,9 @@
 
         <form class="login" action="action_page.php" method="post">
             <div class="input-container">
-                <input type="text" placeholder="Voornaam" name="uname" required>
-                <input type="password" placeholder="Achternaam" name="psw" required>
-                <input type="email" placeholder="naam@example.com" name="mail" required>
+                <input type="text" placeholder="Voornaam" name="firstname" required>
+                <input type="text" placeholder="Achternaam" name="lastname" required>
+                <input type="email" placeholder="naam@example.com" name="username" required>
                 <p class="psw-create">Dit wordt je nieuwe gebruikersnaam.</p>
                 <input type="password" placeholder="Wachtwoord" name="psw" required>
                 <input type="password" placeholder="Bevestig wachtwoord" name="psw" required>
