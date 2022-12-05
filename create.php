@@ -12,18 +12,19 @@
 <body>
     <?php include 'header.php'; ?>
     <div class="container">
-        <img src="img/Image4.png" alt="Logo van ServiceIT">
+        <img class="logo-create" src="img/Image4.png" alt="Logo van ServiceIT">
 
         <h1>Maak een account aan</h1>
 
         <form class="login" action="action_page.php" method="post">
-            <input class="input-names" type="text" placeholder="Voornaam" required="required">
-            <input class="input-names" type="text" placeholder="Achternaam" required="required">
-            <input class="input" type="email" placeholder="naam@emample.com" required="required">
-            <p>Dit wordt je nieuwe gebruikersnaam.</p>
-            <input class="input" type="password" placeholder="Wachtwoord" required="required">
-            <input class="input" type="password" placeholder="Bevestig wachtwoord" required="required">
-            <button type="submit" class="button-1 create-account">Maak account aan</button>
+            <div class="input-container">
+                <input type="text" placeholder="Voornaam" name="uname" required>
+                <input type="password" placeholder="Achternaam" name="psw" required>
+                <input type="email" placeholder="naam@example.com" name="mail" required>
+                <p class="psw-create">Dit wordt je nieuwe gebruikersnaam.</p>
+                <input type="password" placeholder="Wachtwoord" name="psw" required>
+                <input type="password" placeholder="Bevestig wachtwoord" name="psw" required>
+                <button type="submit" class="button-1 create-account">Maak account aan</button>
         </form>
     </div>
 
