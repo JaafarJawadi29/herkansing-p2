@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <title>Maak een account aan</title>
 </head>
 
 <body>
     <?php include 'header.php'; ?>
     <div class="container">
-        <img class="logo-create" src="img/Image4.png" alt="Logo van ServiceIT">
+        <img class="logo-create" src="assets/img/Image4.png" alt="Logo van ServiceIT">
 
         <h1>Maak een account aan</h1>
 

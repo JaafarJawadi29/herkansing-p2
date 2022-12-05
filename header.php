@@ -1,5 +1,5 @@
 <header>
-    <a href="index.php"><img src="img/Image1.png"></a>
+    <a href="index.php"><img src="assets/img/Image1.png"></a>
 
     <div class="navbar">
         <p>Accountbeheer</p>
