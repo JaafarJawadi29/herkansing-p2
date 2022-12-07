@@ -151,5 +151,47 @@ input {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+}
 
+/* HISTORY */
+
+.button-2 {
+  background: rgb(106, 72, 224);
+  background: linear-gradient(
+    0deg,
+    rgba(106, 72, 224, 1) 0%,
+    rgba(176, 153, 252, 1) 100%
+  );
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  float: right;
+}
+
+.service {
+  margin: auto;
+  width: 300px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.service button {
+  float: right;
+  margin: auto;
+  height: 20px;
+  margin-right: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
