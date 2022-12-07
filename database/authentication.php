@@ -20,6 +20,8 @@ $result = mysqli_query($con, "select * from accounts where username = '$username
 $row = mysqli_fetch_array($result);
 if ($row['username'] == $username && $row['password'] == $password) {
     echo "Login success!!!";
+    header("Location: dashboard.php");
 } else {
     echo "Failed to login!";
+    header("Location: ../login.php");
 }
