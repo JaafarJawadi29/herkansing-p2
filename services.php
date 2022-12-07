@@ -9,7 +9,40 @@
 
 <body>
     <?php include 'header.php'; ?>
-    <h1>hoi</h1>
+    <div class="content">
+        <h1>Diensten</h1>
+        <div class="requests">
+            <div class="service">
+                <p>Hardeware reparatie</p>
+                <input type="button" class="button4" value="Aanvragen">
+            </div>
+        </div>
+        <div class="requests">
+            <div class="service">
+                <p>Server onderhoud</p>
+                <input type="button" class="button4" value="Aanvragen">
+            </div>
+        </div>
+        <div class="requests">
+            <div class="service">
+                <p>Server ruimte aanvragen</p>
+                <input type="button" class="button4" value="Aanvragen">
+            </div>
+        </div>
+        <div class="requests">
+            <div class="service">
+                <p>Webdesign</p>
+                <input type="button" class="button4" value="Aanvragen">
+            </div>
+        </div>
+        <div class="requests">
+            <div class="service">
+                <p>Webhosting</p>
+                <input type="button" class="button4" value="Aanvragen">
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
