@@ -14,7 +14,7 @@
         <div class="requests">
             <div class="service">
                 <p>Hardware reparatie</p>
-                <input type="button" class="button4" value="Aanvragen">
+                <input type="button" class="button4" value="Aanvragen" onclick="window.location='hw-service.php'">
             </div>
         </div>
         <div class="requests">

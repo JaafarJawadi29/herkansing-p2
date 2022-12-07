@@ -130,4 +130,39 @@ header img {
   margin: 0px 20px 0px 20px;
   font-size: 16px;
 }
+.hardware{
+  width: 25%;
+}
+.hardware form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin:auto;
+}
 
+#hardware-options {
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 0px;
+}
+
+#onderwerp {
+  margin: 10px 0px 10px 0px;
+  width: -webkit-fill-available;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 0px;
+}
+#problem {
+  margin: 10px 0px 10px 0px;
+  width: -webkit-fill-available;
+  height: 150px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 0px;
+}
