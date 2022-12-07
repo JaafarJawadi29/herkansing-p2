@@ -9,18 +9,23 @@
 </head>
 <body>
     <?php include 'header.php'; ?>
+    <div class="histories">
     <h1>Geschiedenis</h1>
-    <main>
-        <div class="service">
+        <div class="history">
             <p>Service IT-Service</p>
-            <p>Aangevraagd op 01-01-2022</p>
             <button class="button-2">Contract</button>
+            <p>Aangevraagd op 01-01-2022</p>
         </div>
-        <div class="service">
+        <div class="history">
             <p>Service IT-Service</p>
-            <p>Aangevraagd op 01-01-2022</p>
             <button class="button-2">Contract</button>
+            <p>Aangevraagd op 01-01-2022</p>
         </div>
-    </main>
+        <div class="history">
+            <p>Service IT-Service</p>
+            <button class="button-2">Contract</button>
+            <p>Aangevraagd op 01-01-2022</p>
+        <div>
+    <div>
 </body>
 </html>
