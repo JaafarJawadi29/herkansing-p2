@@ -174,7 +174,7 @@ input {
   float: right;
 }
 
-.service {
+.history {
   margin: auto;
   width: 300px;
   height: 60px;
@@ -184,7 +184,7 @@ input {
   flex-direction: row;
 }
 
-.service button {
+.history button {
   float: right;
   margin: auto;
   height: 20px;

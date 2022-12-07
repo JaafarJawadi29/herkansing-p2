@@ -16,11 +16,6 @@
             <p>Aangevraagd op 01-01-2022</p>
             <button class="button-2">Contract</button>
         </div>
-        <div class="service">
-            <p>Service IT-Service</p>
-            <p>Aangevraagd op 01-01-2022</p>
-            <button class="button-2">Contract</button>
-        </div>
     </main>
 </body>
 </html>
