@@ -13,7 +13,7 @@
         <h1>Diensten</h1>
         <div class="requests">
             <div class="service">
-                <p>Hardeware reparatie</p>
+                <p>Hardware reparatie</p>
                 <input type="button" class="button4" value="Aanvragen">
             </div>
         </div>
