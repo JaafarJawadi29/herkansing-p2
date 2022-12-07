@@ -12,18 +12,38 @@
 <body>
     <?php include 'assets/header.php'; ?>
     <?php include 'assets/database.php'; ?>
-    <div class="container">
-        <img class="logo-login" src="assets/svg/Image1.svg" alt="Logo van ServiceIT">
-        <h1>Inloggen</h1>
+    <div class="popup">
+        <div class="popup-content" id="popup">
+            <h1>Wachtwoord vergeten</h1>
+            <p class="popup-text">Gelieve contact opnemen met de IT beheerders om uw wachtwoord te resetten.</p>
+            <button type="button" class="button-1 pswf" onclick="closePopup()">Sluiten</button>
+        </div>
 
-        <form class="login" action="assets/database/" method="post">
-            <div class="input-container">
-                <input type="text" placeholder="Gebruikersnaam" name="username" required>
-                <input type="password" placeholder="Wachtwoord" name="password" required>
-                <a class="psw" href="#">Wachtwoord vergeten?</a>
-                <button class="button-1 login" type="submit">Inloggen</button>
-        </form>
-    </div>
+        <div class="container">
+            <img class="logo-login" src="assets/svg/Image1.svg" alt="Logo van ServiceIT">
+            <h1>Inloggen</h1>
+
+            <form class="login" action="" method="post">
+                <div class="input-container">
+                    <input type="text" placeholder="Gebruikersnaam" name="username" required>
+                    <input type="password" placeholder="Wachtwoord" name="password" required>
+                    <button class="btn psw" type="button" onclick="openPopup()">Wachtwoord vergeten?</button>
+                    <button class="button-1 login" type="submit">Inloggen</button>
+            </form>
+        </div>
+
+        <script>
+            let popup = document.getElementById("popup");
+
+            function openPopup() {
+                popup.classList.add("open-popup");
+            }
+
+            function closePopup() {
+                popup.classList.remove("open-popup");
+            }
+        </script>
+
 </body>
 
 </html>
