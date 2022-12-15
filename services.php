@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Services</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/stylesheet2.css">
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include './assets/header.php'; ?>
     <div class="content">
         <h1>Diensten</h1>
         <div class="requests">

@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Service-IT</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet2.css">
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include './assets/header.php'; ?>
     <div class="content">
         <h1>Vraag hardware reparatie aan</h1>
         <div class="hardware">
