@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Service-IT</title>
-    <link rel="stylesheet" href="css/stylesheet2.css">
+    <link rel="stylesheet" href="assets/css/stylesheet2.css">
 </head>
 
 <body>
