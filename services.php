@@ -13,8 +13,8 @@
         <h1>Diensten</h1>
         <div class="requests">
             <div class="service">
-                <p>Hardeware reparatie</p>
-                <input type="button" class="button4" value="Aanvragen">
+                <p>Hardware reparatie</p>
+                <input type="button" class="button4" value="Aanvragen" onclick="window.location='hw-service.php'">
             </div>
         </div>
         <div class="requests">
