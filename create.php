@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/stylesheet2.css">
     <title>Maak een account aan</title>
 </head>
 
 <body>
     <?php include 'assets/header.php'; ?>
-    <?php include 'assets/database.php'; ?>
     <div class="container">
         <img class="logo-create" src="assets/svg/Image1.svg" alt="Logo van ServiceIT">
 
