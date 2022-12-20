@@ -5,13 +5,6 @@
         <p>Accountbeheer</p>
         <a href="create.php">Maak account aan</a>
         <a href="login.php">Log in</a>
-    <a href="index.php"><img src="img/Image1.png"></a>
-    <div class="navbar">
-        <h1>Welkom Gebruiker!</h1>
-        <input type="button" class="button3" value="Log uit" onclick="window.location.href='index.php'">
-        <a href="Support.php">Support</a>
-        <a href="account.php">Account</a>
-        <a href="history.php">Geschiedenis</a>
-        <a href="services.php">Diensten</a>
+        <a href="index.php"><img src="img/Image1.png"></a>
     </div>
 </header>

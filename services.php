@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <?php include './assets/header.php'; ?>
+    <?php include 'assets/header2.php'; ?>
     <div class="content">
         <h1>Diensten</h1>
         <div class="requests">

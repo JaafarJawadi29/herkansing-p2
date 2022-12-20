@@ -11,7 +11,6 @@
 
 <body>
     <?php include 'assets/header.php'; ?>
-    <?php include 'assets/database.php'; ?>
     <div class="popup">
         <div class="popup-content" id="popup">
             <h1>Wachtwoord vergeten</h1>
