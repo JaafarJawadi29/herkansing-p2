@@ -1,34 +1,18 @@
 <?php
-    $conn = mysqli_connect("localhost", "root", "",)
-    or die("Can't connect to server");
+    $conn = mysqli_connect("localhost", "root", "")
+    or die("Cannot connect to server");
 
     mysqli_select_db($conn, "serviceit")
-    or die("Can't connect to database");
+    or die("Could not find database<br>");
+    $query = "SELECT * FROM service";
 
-    if(isset($_GET['code'])){
-        $query = "SELECT * FROM service WHERE service_id = ?";
-        $stmt = mysqli_prepare($conn, $query)
-        or die(mysqli_error($conn));
+    $stmt = mysqli_prepare($conn, $query)
+    or die(mysqli_error($conn));
 
-        mysqli_stmt_bind_param($stmt, "s", $_GET['code'])
-        or die("Fout");
+    mysqli_stmt_execute($stmt)
+    or die("Could not execute query");
 
-        mysqli_stmt_execute($stmt)
-        or die("Couldn't execute");
-
-        mysqli_stmt_bind_result($stmt, $service_id, $customer_email, $employee_email, $type, $description, $hardware_description, $date, $status, $contract);
-
-        while(mysqli_stmt_fetch($stmt)) {
-
-        }
-        if (mysqli_stmt_num_rows($stmt) == 0) {
-            header("location: index.php");
-        }
-        mysqli_stmt_close($stmt);
-        mysqli_close($conn);
-    } else {
-        header("location: index.php");
-    }
+    mysqli_stmt_bind_result($stmt, $service_id, $customer_email, $employee_email, $type, $description, $hardware_description, $date, $status, $contract);
 ?>
 
 <!DOCTYPE html>
@@ -41,7 +25,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include 'header.php'; ?>
+    <?php include 'header.php';
+        while(mysqli_stmt_fetch($stmt)) {
+    ?>
     <h1>Geschiedenis</h1>
     <main>
         <div class="history">
@@ -50,5 +36,12 @@
             <button class="button-2">Contract</button>
         </div>
     </main>
+    <?php
+        }
+    ?>
 </body>
+    <?php
+               mysqli_stmt_close($stmt);
+               mysqli_close($conn);
+    ?>
 </html>

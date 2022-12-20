@@ -184,6 +184,11 @@ input {
   flex-direction: row;
 }
 
+.history p {
+  margin: auto;
+  margin-left: 10px;
+  font-size: 13px;
+}
 .history button {
   float: right;
   margin: auto;
