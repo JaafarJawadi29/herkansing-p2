@@ -20,25 +20,25 @@
         <div class="requests">
             <div class="service">
                 <p>Server onderhoud</p>
-                <input type="button" class="button4" value="Aanvragen">
+                <input type="button" class="button4" value="Aanvragen" onclick="window.location='serverMaintenance.php'">
             </div>
         </div>
         <div class="requests">
             <div class="service">
                 <p>Server ruimte aanvragen</p>
-                <input type="button" class="button4" value="Aanvragen">
+                <input type="button" class="button4" value="Aanvragen" onclick="window.location='requestServer.php'">
             </div>
         </div>
         <div class="requests">
             <div class="service">
                 <p>Webdesign</p>
-                <input type="button" class="button4" value="Aanvragen">
+                <input type="button" class="button4" value="Aanvragen" onclick="window.location='requestWebdesign.php'">
             </div>
         </div>
         <div class="requests">
             <div class="service">
                 <p>Webhosting</p>
-                <input type="button" class="button4" value="Aanvragen">
+                <input type="button" class="button4" value="Aanvragen" onclick="window.location='requestWebhosting.php'">
             </div>
         </div>
     </div>
