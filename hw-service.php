@@ -32,3 +32,28 @@
 </body>
 
 </html>
+<?php
+// Connect to the database
+$db = mysqli_connect('localhost', 'root', '', 'serviceit');
+if (!$db) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+
+
+// Check if the form was submitted
+if (isset($_POST['submit'])) {
+    // Escape user inputs for security
+    $hardware = mysqli_real_escape_string($db, $_POST["hardware"]);
+    $subject = mysqli_real_escape_string($db, $_POST["onderwerp"]);
+    $problem = mysqli_real_escape_string($db, $_POST["problem"]);
+
+    // Attempt insert query execution
+    $sql = 'INSERT INTO test (hardware, onderwerp, problem) VALUES ("$hardware", "$subject","$problem")';
+    if (mysqli_query($db, $sql)) {
+        echo "Repair request added successfully.";
+    } else {
+        echo "ERROR: Could not able to execute $sql. " . mysqli_error($db);
+    }
+}
+?>
