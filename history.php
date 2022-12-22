@@ -14,7 +14,6 @@
 
     mysqli_stmt_bind_result($stmt, $service_id, $customer_email, $employee_email, $type, $description, $hardware_description, $date, $status, $contract);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,10 +24,10 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include 'header.php';
-        while(mysqli_stmt_fetch($stmt)) {
-    ?>
+    <?php include 'header.php'; ?>
     <h1>Geschiedenis</h1>
+    <?php while(mysqli_stmt_fetch($stmt)) { ?>
+    
     <main>
         <div class="history">
             <p><?php echo $type; ?></p>
@@ -41,7 +40,7 @@
     ?>
 </body>
     <?php
-               mysqli_stmt_close($stmt);
-               mysqli_close($conn);
+        mysqli_stmt_close($stmt);
+        mysqli_close($conn);
     ?>
 </html>
