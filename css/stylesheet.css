@@ -201,3 +201,12 @@ main {
   flex-direction: column;
   margin-top: 20px;
 }
+
+.type {
+  font-weight: bold;
+}
+
+.contract {
+  display: flex;
+  justify-content: center;
+}

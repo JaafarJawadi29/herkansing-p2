@@ -26,17 +26,29 @@
 <body>
     <?php include 'header.php'; ?>
     <h1>Geschiedenis</h1>
-    <?php while(mysqli_stmt_fetch($stmt)) { ?>
-    
+    <?php while(mysqli_stmt_fetch($stmt)) {
+        if ($status == "closed") {
+         ?>
     <main>
         <div class="history">
-            <p><?php echo $type; ?></p>
-            <p><?php echo $description; ?></p>
-            <button class="button-2">Contract</button>
+            <p class="type"><?php echo $type; ?></p>
+            <p>
+                <?php
+                    if ($type == "hardware") {
+                        echo $hardware_description;
+                    } else {
+                        echo $description;
+                    }
+                ?>
+            </p>
+            <a href="contract.php">
+                <button class="button-2">Contract</button>
+            </a>
         </div>
     </main>
     <?php
         }
+    }
     ?>
 </body>
     <?php
