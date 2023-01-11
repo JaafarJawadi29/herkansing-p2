@@ -6,7 +6,8 @@ include 'db_connect.php';
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
 $username = $_POST['username'];
-$password = $_POST['password'];
+$password_1 = $_POST['password_1'];
+$password_2 = $_POST['password_2'];
 
 // To prevent from mysqli injection  
 $firstname = stripcslashes($firstname);
