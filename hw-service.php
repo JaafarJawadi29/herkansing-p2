@@ -32,22 +32,30 @@
 </body>
 
 </html>
-<!-- <?php
-        // Connect to the database
-        $db = mysqli_connect('localhost', 'root', '', 'serviceit');
-        if (!$db) {
-            die("Connection failed: " . mysqli_connect_error());
-        }
+<div class="center">
+    <?php
+    // Connect to the database
+    $db = mysqli_connect('localhost', 'root', '', 'serviceit');
+    if (!$db) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
 
-        // Check if the form is submitted
-        if (isset($_POST['submit'])) {
-            // Assigning POST values to variables.
-            $onderwerp = $_POST['onderwerp'];
-            $problem = $_POST['problem'];
-            $hardware = $_POST['hardware'];
-            // CHECK FOR THE RECORD FROM TABLE
-            $query = "INSERT INTO test (onderwerp, problem, hardware) VALUES ('$onderwerp', '$problem', '$hardware')";
-            $result = mysqli_query($db, $query) or die(mysqli_error($db));
-            echo "Hardware reparatie aangevraagd";
-        }
-        ?> -->
+    // Check if the form is submitted
+    if (isset($_POST['submit'])) {
+        // Assigning POST values to variables.
+        $onderwerp = $_POST['onderwerp'];
+        $problem = $_POST['problem'];
+        $hardware = $_POST['hardware'];
+        // prepare SQL statement
+        $stmt = mysqli_prepare($db, "INSERT INTO test (onderwerp, problem, hardware) VALUES (?, ?, ?)");
+        mysqli_stmt_bind_param($stmt, 'sss', $onderwerp, $problem, $hardware);
+        // Execute the statement
+        mysqli_stmt_execute($stmt);
+        echo "Hardware reparatie aangevraagd";
+        mysqli_stmt_close($stmt);
+        mysqli_close($db);
+        header("Location: redirect.php");
+        exit();
+    }
+    ?>
+</div>
