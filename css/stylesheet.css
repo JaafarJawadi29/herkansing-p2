@@ -207,6 +207,11 @@ main {
 }
 
 .contract {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 1px;
+  border-color: black;
+  width: 692px;
+  height: 968px;
 }
