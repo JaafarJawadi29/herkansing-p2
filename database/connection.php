@@ -1,7 +1,6 @@
 <?php
- 
-$conn = "";
-  
+$conn = "";  
+
 try {
     $servername = "localhost";
     $dbname = "ServiceIT";
