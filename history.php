@@ -1,3 +1,19 @@
+<?php
+    $conn = mysqli_connect("localhost", "root", "")
+    or die("Cannot connect to server");
+
+    mysqli_select_db($conn, "serviceit")
+    or die("Could not find database<br>");
+    $query = "SELECT * FROM service";
+
+    $stmt = mysqli_prepare($conn, $query)
+    or die(mysqli_error($conn));
+
+    mysqli_stmt_execute($stmt)
+    or die("Could not execute query");
+
+    mysqli_stmt_bind_result($stmt, $service_id, $customer_email, $employee_email, $type, $description, $hardware_description, $date, $status, $contract);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,21 +27,33 @@
     <?php include 'header.php'; ?>
     <div class="histories">
     <h1>Geschiedenis</h1>
+    <?php while(mysqli_stmt_fetch($stmt)) {
+        if ($status == "closed") {
+         ?>
+    <main>
         <div class="history">
-            <p>Service IT-Service</p>
-            <button class="button-2">Contract</button>
-            <p>Aangevraagd op 01-01-2022</p>
+            <p class="type"><?php echo $type; ?></p>
+            <p>
+                <?php
+                    if ($type == "hardware") {
+                        echo $hardware_description;
+                    } else {
+                        echo $description;
+                    }
+                ?>
+            </p>
+            <a href="contract.php">
+                <button class="button-2">Contract</button>
+            </a>
         </div>
-        <div class="history">
-            <p>Service IT-Service</p>
-            <button class="button-2">Contract</button>
-            <p>Aangevraagd op 01-01-2022</p>
-        </div>
-        <div class="history">
-            <p>Service IT-Service</p>
-            <button class="button-2">Contract</button>
-            <p>Aangevraagd op 01-01-2022</p>
-        <div>
-    <div>
+    </main>
+    <?php
+        }
+    }
+    ?>
 </body>
+    <?php
+        mysqli_stmt_close($stmt);
+        mysqli_close($conn);
+    ?>
 </html>
