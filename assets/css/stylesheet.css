@@ -226,7 +226,7 @@ input {
 
 .btn.psw {
   cursor: pointer;
-  margin-top: 30px;
+  margin: 30px;
   text-align: center;
   justify-content: center;
   justify-items: center;
