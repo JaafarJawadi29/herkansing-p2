@@ -24,7 +24,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include 'assets/header2.php'; ?>
     <div class="histories">
     <h1>Geschiedenis</h1>
     <?php while(mysqli_stmt_fetch($stmt)) {

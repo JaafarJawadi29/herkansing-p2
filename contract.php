@@ -25,19 +25,25 @@
 </head>
 <body>
     <h1>Contract</h1>
-    <div class="contract">
-        <?php while(mysqli_stmt_fetch($stmt)) {
+    <?php while(mysqli_stmt_fetch($stmt)) {
             if ($status == "closed") {
+                $filename = "contract/" . $contract . ".pdf";
         ?>
-        <p>
-            <?php
-                echo $contract;
-            ?>
-        </p>
+    <div class="contract">
+        <div class="contractinfo">
+            <p><strong>Contract: </strong><?php echo $contract; ?>.pdf</p>
+            <p><strong>Service ID: </strong><?php echo $service_id; ?></p>
+            <a class="button-4" href="<?php echo $filename; ?>" target="_blank">Download</a>
+        </div>
+    <?php
+        ?>
+        <br/><br/>
+        <iframe src="<?php echo $filename; ?>" width="100%" height="100%">
+        </iframe>
         <?php
-            }
+            }  
         }
-        ?>
+    ?>
     </div>
 </body>
 </html>
