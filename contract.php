@@ -21,38 +21,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylesheet.css">
-    <title>Document</title>
+    <title>Contract</title>
 </head>
 <body>
-    <div class="histories">
-    <h1>Geschiedenis</h1>
+    <h1>Contract</h1>
     <?php while(mysqli_stmt_fetch($stmt)) {
-        if ($status == "closed") {
-         ?>
-    <main>
-        <div class="history">
-            <p class="type"><?php echo $type; ?></p>
-            <p>
-                <?php
-                    if ($type == "hardware") {
-                        echo $hardware_description;
-                    } else {
-                        echo $description;
-                    }
-                ?>
-            </p>
-            <a href="contract.php">
-                <button class="button-2">Contract</button>
-            </a>
+            if ($status == "closed") {
+                $filename = "contract/" . $contract . ".pdf";
+        ?>
+    <div class="contract">
+        <div class="contractinfo">
+            <p><strong>Contract: </strong><?php echo $contract; ?>.pdf</p>
+            <p><strong>Service ID: </strong><?php echo $service_id; ?></p>
+            <a class="button-4" href="<?php echo $filename; ?>" target="_blank">Download</a>
         </div>
-    </main>
     <?php
+        ?>
+        <br/><br/>
+        <iframe src="<?php echo $filename; ?>" width="100%" height="100%">
+        </iframe>
+        <?php
+            }  
         }
-    }
     ?>
+    </div>
 </body>
-    <?php
-        mysqli_stmt_close($stmt);
-        mysqli_close($conn);
-    ?>
 </html>
