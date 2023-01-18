@@ -11,8 +11,17 @@
     <?php include 'assets/header2.php'; ?>
     <?php include 'database/service_API.php'; ?>
     <?php 
+        $noOpen = "";
+        $noInProgress = "";
+
         $openServices = getOpenServices();
-        $closedServices = getClosedServices();
+        if(!isset($openServices())){
+            $noOpen = "Geen open services";
+        }
+        $inProgressServices = getInProgressServices();
+        if(!isset($closedServices())){
+            $noInProgress = "Geen Services waar iemand mee bezig is";
+        }
     ?>
     <div class="employeeContainer">
         <div class="titleBox">
@@ -20,6 +29,9 @@
         </div>
         <h3>open</h3>
         <?php
+        if(isset($noOpen)){
+            echo $noOpen;
+        }else{
         for ($x = 0; $x < ceil((count($openServices) / 2)); $x++) {
             $type1 = $openServices[$x * 2]["type"];
             $description1 = $openServices[$x * 2]["description"];
@@ -27,7 +39,6 @@
             $time = strtotime($date1);
             $date = getdate($time);
             $dateFormatted = $date['mday'] . "-" . $date['mon'] . "-" . $date['year'];
-
             echo '
             <div class="row">
                 <div class="serviceBox">
@@ -63,9 +74,13 @@
             echo '</div>
             </div>';
         }
+        }
         ?>
         <h3>Bezig</h3>
         <?php
+        if($noInProgress){
+            echo $noInProgress;
+        }else{
         for ($x = 0; $x < ceil((count($closedServices) / 2)); $x++) {
             $type1 = $closedServices[$x * 2]["type"];
             $description1 = $closedServices[$x * 2]["description"];
@@ -109,6 +124,7 @@
             echo '</div>
             </div>';
         }
+    }
         ?>
     </div>
 </body>
