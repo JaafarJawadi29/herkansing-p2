@@ -1,3 +1,41 @@
+<?php
+
+$is_invalid = false;
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
+    $mysqli = require __DIR__ . "/config/database.php";
+
+    $sql = sprintf(
+        "SELECT * FROM users
+                    WHERE email = '%s'",
+        $mysqli->real_escape_string($_POST["email"])
+    );
+
+    $result = $mysqli->query($sql);
+
+    $user = $result->fetch_assoc();
+
+    if ($user) {
+
+        if (password_verify($_POST["password"], $user["password_hash"])) {
+
+            session_start();
+
+            session_regenerate_id();
+
+            $_SESSION["user_id"] = $user["id"];
+
+            header("Location: dashboard.php");
+            exit;
+        }
+    }
+
+    $is_invalid = true;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,10 +45,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/stylesheet2.css">
     <title>Inloggen</title>
+    <?php include __DIR__ . "/assets/header.php"; ?>
 </head>
 
 <body>
-    <?php include 'assets/header.php'; ?>
     <div class="popup">
         <div class="popup-content" id="popup">
             <h1>Wachtwoord vergeten</h1>
@@ -22,12 +60,18 @@
             <img class="logo-login" src="assets/svg/Image1.svg" alt="Logo van ServiceIT">
             <h1>Inloggen</h1>
 
-            <form class="login" action="" method="post">
+            <form method="post">
                 <div class="input-container">
-                    <input type="text" placeholder="Gebruikersnaam" name="username" required>
-                    <input type="password" placeholder="Wachtwoord" name="password" required>
+                    <input type="email" id="email" name="email" placeholder="naam@example.com" value="<?= htmlspecialchars($_POST["email"] ?? "") ?>">
+                    <input type="password" id="password " name="password" placeholder="Wachtwoord">
+
                     <button class="btn psw" type="button" onclick="openPopup()">Wachtwoord vergeten?</button>
-                    <button class="button-1 login" type="submit">Inloggen</button>
+
+                    <?php if ($is_invalid) : ?>
+                        <em>Emailadres of wachtwoord is onjuist. </em>
+                    <?php endif; ?>
+
+                    <button class="button-1 login">Inloggen</button>
             </form>
         </div>
 

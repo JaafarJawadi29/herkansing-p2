@@ -5,29 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/stylesheet2.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
     <title>Maak een account aan</title>
+    <?php require __DIR__ . "/assets/header.php"; ?>
 </head>
 
 <body>
-    <?php include 'assets/header.php'; ?>
     <div class="container">
         <img class="logo-create" src="assets/svg/Image1.svg" alt="Logo van ServiceIT">
-
         <h1>Maak een account aan</h1>
 
-        <form class="login" action="action_page.php" method="post">
+        <form action="config/process-signup.php" method="post" novalidate>
             <div class="input-container">
-                <input type="text" placeholder="Voornaam" name="firstname" required>
-                <input type="text" placeholder="Achternaam" name="lastname" required>
-                <input type="email" placeholder="naam@example.com" name="username" required>
-                <p class="psw-create">Dit wordt je nieuwe gebruikersnaam.</p>
-                <input type="password" placeholder="Wachtwoord" name="psw" required>
-                <input type="password" placeholder="Bevestig wachtwoord" name="psw" required>
-                <button type="submit" class="button-1 create-account">Maak account aan</button>
-        </form>
-    </div>
+                <input type="text" id="firstname" name="firstname" placeholder="Voornaam">
+                <input type="text" id="lastname" name="lastname" placeholder="Achternaam">
+                <input type="email" id="email" name="email" placeholder="naam@example.com">
 
+                <p class="psw-create">Dit wordt je nieuwe gebruikersnaam.</p>
+
+                <input type="password" id="password" name="password" placeholder="Wachtwoord">
+                <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Bevestig wachtwoord">
+
+                <button type="submit" class="button-1 create-account">Maak account aan</button>
+            </div>
+        </form>
+
+    </div>
 </body>
 
 </html>
