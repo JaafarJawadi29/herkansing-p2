@@ -33,10 +33,10 @@ if (isset($_SESSION["user_id"])) {
 
         <?php if (isset($user)) : ?>
             <h1>Hallo <?= htmlspecialchars($user["firstname"]) ?></p>
-            <p><a href="config/logout.php">Uitloggen</a></p>
-        <?php else : ?>
-            <h1><a href="login.php">Inloggen</a> of <a href="signup.html">Maak een account aan</a></h1>
-        <?php endif; ?>
+                <p><a href="config/logout.php">Uitloggen</a></p>
+            <?php else : ?>
+                <h1><a href="login.php">Inloggen</a> of <a href="signup.html">Maak een account aan.</a></h1>
+            <?php endif; ?>
 
     </div>
 </body>
