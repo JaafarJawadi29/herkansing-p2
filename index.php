@@ -13,7 +13,7 @@
     <div class="container">
         <img class="logo-index" src="assets/svg/Image1.svg" alt="Logo van ServiceIT">
         <button onclick="window.location.href='login.php';" class="button-1 home">Inloggen</button>
-        <a class="create-account" href="create.php">Maak account aan</a>
+        <a class="create-account" href="register.php">Maak account aan</a>
     </div>
 </body>
 
