@@ -1,4 +1,5 @@
 <?php
+    session_start();
     //Get customer id from session login
     $id = $_SESSION['id']; 
 
@@ -30,7 +31,6 @@
 
     //Bind results from database
     mysqli_stmt_bind_result($stmt, $service_id, $customer_email, $employee_email, $type, $description, $hardware_description, $date, $status, $contract);
-    mysqli_stmt_close($stmt); //Closes stmt
 
     // $stmt = mysqli_prepare($conn, "SELECT * FROM customer WHERE email = ?")
     // or die("Could not fetch from database");
