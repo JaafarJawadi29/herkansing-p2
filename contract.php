@@ -24,9 +24,9 @@
     mysqli_stmt_close($stmt); //Closes stmt
 
     //Get contract from service id from user id
-    $queryServiceData = "SELECT * FROM service WHERE user_id = ?"; //Query to get contract from service id, ? = service_id
+    $queryServiceData = "SELECT * FROM service WHERE service_id = ?"; //Query to get contract from service id, ? = service_id
     $stmt = mysqli_prepare($conn, $queryServiceData); //Prepare query
-    mysqli_stmt_bind_param($stmt, 'i', $user_id); //Bind $service_id to ? as int
+    mysqli_stmt_bind_param($stmt, 'i', $service_id); //Bind $service_id to ? as int
     mysqli_stmt_execute($stmt) //Execute query
     or die("Could not execute query");
 
