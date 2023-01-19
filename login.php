@@ -1,4 +1,12 @@
 <?php
+session_start();
+if (isset($_SESSION['user_id'])) {
+    header('location: services.php');
+    exit();
+}
+?>
+
+<?php
 
 $is_invalid = false;
 
@@ -7,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $mysqli = require __DIR__ . "/config/database.php";
 
     $sql = sprintf(
-        "SELECT * FROM users
+        "SELECT * FROM user
                     WHERE email = '%s'",
         $mysqli->real_escape_string($_POST["email"])
     );
@@ -18,15 +26,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($user) {
 
-        if (password_verify($_POST["password"], $user["password_hash"])) {
+        if (password_verify($_POST["password"], $user["password"])) {
 
             session_start();
 
             session_regenerate_id();
 
-            $_SESSION["user_id"] = $user["id"];
+            $_SESSION["user_id"] = $user["user_id"];
 
-            header("Location: dashboard.php");
+
+            header("Location: services.php");
             exit;
         }
     }
@@ -43,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/stylesheet2.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
     <title>Inloggen</title>
     <?php include __DIR__ . "/assets/header.php"; ?>
 </head>

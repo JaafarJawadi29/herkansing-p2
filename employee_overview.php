@@ -1,3 +1,4 @@
+<?php include 'loginCheck.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +29,6 @@
             <h1>Overzicht</h1>
         </div>
         <h3>Open</h3>
-        <?php
         if (!empty($noOpen)) {
             echo $noOpen;
         } else {
