@@ -54,14 +54,10 @@
 <body>
     <h1>Contract</h1>
     <?php 
-    //Echo contract from service id
+    //Get contract from selected service id
     while(mysqli_stmt_fetch($stmt)) {
         if ($status == "closed" && $service_id == $service_id) {
             $filename = "contract/" . $contract . ".pdf";
-
-    // while(mysqli_stmt_fetch($stmt)) {
-    //         if ($status == "closed") {
-    //             $filename = "contract/" . $contract . ".pdf";
         ?>
     <div class="contractinfo">
             <a class="button-4" href="<?php echo $filename; ?>" target="_blank">Download</a>
