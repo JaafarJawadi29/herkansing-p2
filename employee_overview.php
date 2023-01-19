@@ -16,11 +16,11 @@
     $noInProgress = "";
 
     $openServices = getOpenServices();
-    if (!isset($openServices)) {
+    if ($openServices[0] == null) {
         $noOpen = "Geen open services";
     }
     $inProgressServices = getInProgressServices();
-    if (!isset($closedServices)) {
+    if ($closedServices[0] == null) {
         $noInProgress = "Geen Services waar iemand mee bezig is";
     }
     ?>
@@ -28,9 +28,8 @@
         <div class="titleBox">
             <h1>Overzicht</h1>
         </div>
-        <h3>open</h3>
-        <?php
-        if (isset($noOpen)) {
+        <h3>Open</h3>
+        if (!empty($noOpen)) {
             echo $noOpen;
         } else {
             for ($x = 0; $x < ceil((count($openServices) / 2)); $x++) {
