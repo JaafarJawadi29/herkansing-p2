@@ -44,7 +44,7 @@
     // Check if the form is submitted
     if (isset($_POST['submit'])) {
         // Assigning POST values to variables.
-        $employee_id = '1';
+        $employee_id = null;
         $user_id = $_SESSION['user_id'];
         $service_type = $_POST['service_type'];
         $subject = $_POST['subject'];
