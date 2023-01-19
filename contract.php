@@ -1,9 +1,7 @@
 <?php
     session_start();
-    $SESSION['service_id'] = 1;
     //Get user id from session login
     $user_id = $_SESSION['user_id'];
-    $service_id = $_SESSION['service_id'];
 
     //Make connection with database
     $conn = mysqli_connect("localhost", "root", "")
@@ -54,7 +52,7 @@
 </head>
 <body>
     <h1>Contract</h1>
-    <?php 
+    <?php
     //Get contract from selected service id
     while(mysqli_stmt_fetch($stmt)) {
         if ($status == "closed") {

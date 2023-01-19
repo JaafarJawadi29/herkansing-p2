@@ -18,10 +18,10 @@ or die("Could not execute query");
 $employee_id = mysqli_stmt_bind_result($stmt, $employee_id, $first_name, $last_name, $email, $employee_type, $password);
 
 //Check if admin is logged in
-// if (!isset($_SESSION['employee_id']) && ($_SESSION['employee_type'] !== "admin")) {
-//     header('location: login.php');
-//     exit();
-// }
+if (!isset($_SESSION['employee_id']) && ($_SESSION['employee_type'] !== "admin")) {
+    header('location: login.php');
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
