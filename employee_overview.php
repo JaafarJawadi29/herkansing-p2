@@ -16,11 +16,11 @@
     $noInProgress = "";
 
     $openServices = getOpenServices();
-    if (!isset($openServices())) {
+    if (!isset($openServices)) {
         $noOpen = "Geen open services";
     }
     $inProgressServices = getInProgressServices();
-    if (!isset($closedServices())) {
+    if (!isset($closedServices)) {
         $noInProgress = "Geen Services waar iemand mee bezig is";
     }
     ?>
@@ -79,7 +79,7 @@
         ?>
         <h3>Bezig</h3>
         <?php
-        if ($noInProgress) {
+        if (!empty($noInProgress)) {
             echo $noInProgress;
         } else {
             for ($x = 0; $x < ceil((count($closedServices) / 2)); $x++) {
