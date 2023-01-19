@@ -1,7 +1,7 @@
 <?php
     session_start();
-    //Get customer id from session login
-    $id = $_SESSION['id']; 
+    //Get user id from session login
+    $user_id = $_SESSION['user_id']; 
 
     //Make connection with database
     $conn = mysqli_connect("localhost", "root", "")
@@ -12,25 +12,25 @@
     or die("Could not find database<br>");
     
     //Get email from customer id
-    $queryCustomerData = "SELECT email FROM customer WHERE id = ?"; //Query to get customer email, ? = customer_id
+    $queryCustomerData = "SELECT email FROM user WHERE user_id = ?"; //Query to get customer email, ? = customer_id
     $stmt = mysqli_prepare($conn, $queryCustomerData); //Prepare for execution
-    mysqli_stmt_bind_param($stmt, 'i', $id); //Bind $id to ? as int
+    mysqli_stmt_bind_param($stmt, 'i', $user_id); //Bind $id to ? as int
     mysqli_stmt_execute($stmt) //Execute query
     or die("Could not execute query");
 
     //Bind results from database
-    $email = mysqli_stmt_bind_result($stmt, $customer_email);
+    $email = mysqli_stmt_bind_result($stmt, $email);
     mysqli_stmt_close($stmt); //Closes stmt
 
     //Get all services from customer email
-    $queryServiceData = "SELECT * FROM service WHERE customer_email = ?"; //Query to get all services from customer email, ? = customer_email
+    $queryServiceData = "SELECT * FROM service WHERE user_id = ?"; //Query to get all services from customer email, ? = customer_email
     $stmt = mysqli_prepare($conn, $queryServiceData); //Prepare for execution
-    mysqli_stmt_bind_param($stmt, 's', $customer_email); //Bind $customer_email to ? as string
+    mysqli_stmt_bind_param($stmt, 'i', $user_id); //Bind $customer_email to ? as string
     mysqli_stmt_execute($stmt) //Execute query
     or die("Could not execute query");
 
     //Bind results from database
-    mysqli_stmt_bind_result($stmt, $service_id, $customer_email, $employee_email, $type, $description, $hardware_description, $date, $status, $contract);
+    mysqli_stmt_bind_result($stmt, $service_id, $user_id, $employee_id, $service_type, $subject, $description, $date, $status, $contract);
 
     // $stmt = mysqli_prepare($conn, "SELECT * FROM customer WHERE email = ?")
     // or die("Could not fetch from database");
@@ -62,11 +62,7 @@
             <p class="type"><?php echo $type; ?></p>
             <p>
                 <?php
-                    if ($type == "hardware") {
-                        echo $hardware_description;
-                    } else {
-                        echo $description;
-                    }
+                    echo $description;
                 ?>
             </p>
             <a href="contract.php">
