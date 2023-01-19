@@ -1,5 +1,6 @@
 <?php
     session_start();
+    $SESSION['service_id'] = 1;
     //Get user id from session login
     $user_id = $_SESSION['user_id'];
     $service_id = $_SESSION['service_id'];
@@ -24,9 +25,9 @@
     mysqli_stmt_close($stmt); //Closes stmt
 
     //Get contract from service id from user id
-    $queryServiceData = "SELECT * FROM service WHERE user_id = ?"; //Query to get contract from service id, ? = service_id
+    $queryServiceData = "SELECT * FROM service WHERE service_id = ?"; //Query to get contract from service id, ? = service_id
     $stmt = mysqli_prepare($conn, $queryServiceData); //Prepare query
-    mysqli_stmt_bind_param($stmt, 'i', $user_id); //Bind $service_id to ? as int
+    mysqli_stmt_bind_param($stmt, 'i', $service_id); //Bind $service_id to ? as int
     mysqli_stmt_execute($stmt) //Execute query
     or die("Could not execute query");
 
@@ -56,7 +57,7 @@
     <?php 
     //Get contract from selected service id
     while(mysqli_stmt_fetch($stmt)) {
-        if ($status == "closed" && $service_id == $service_id) {
+        if ($status == "closed") {
             $filename = "contract/" . $contract . ".pdf";
         ?>
     <div class="contractinfo">

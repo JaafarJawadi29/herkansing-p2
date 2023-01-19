@@ -1,6 +1,17 @@
+<?php
+//Make connection with database
+$conn = mysqli_connect("localhost", "root", "")
+or die("Cannot connect to server");
+
+//Select correct database else error
+mysqli_select_db($conn, "serviceit")
+or die("Could not find database<br>");
+
+//Check if admin is logged in
+
+?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +19,6 @@
     <link rel="stylesheet" href="assets/css/stylesheet2.css">
     <title>Voeg een medewerker toe</title>
 </head>
-
 <body>
     <?php include 'assets/header.php'; ?>
     <div class="container">
@@ -19,7 +29,6 @@
             </form>
         </div>
     </div>
-
 </body>
 
 </html>
