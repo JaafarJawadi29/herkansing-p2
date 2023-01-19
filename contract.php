@@ -29,15 +29,10 @@
             if ($status == "closed") {
                 $filename = "contract/" . $contract . ".pdf";
         ?>
-    <div class="contract">
-        <div class="contractinfo">
-            <p><strong>Contract: </strong><?php echo $contract; ?>.pdf</p>
-            <p><strong>Service ID: </strong><?php echo $service_id; ?></p>
+    <div class="contractinfo">
             <a class="button-4" href="<?php echo $filename; ?>" target="_blank">Download</a>
         </div>
-    <?php
-        ?>
-        <br/><br/>
+    <div class="contract">
         <iframe src="<?php echo $filename; ?>" width="100%" height="100%">
         </iframe>
         <?php
