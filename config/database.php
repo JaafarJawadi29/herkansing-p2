@@ -1,7 +1,7 @@
 <?php
 
 $host = "localhost";
-$dbname = "service-it";
+$dbname = "serviceit";
 $username = "root";
 $password = "";
 
@@ -14,7 +14,7 @@ $mysqli = new mysqli(
 );
 
 // Check connection
-if ($mysqli -> connect_error) {
+if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);
 }
 

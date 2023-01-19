@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $mysqli = require __DIR__ . "/config/database.php";
 
     $sql = sprintf(
-        "SELECT * FROM users
+        "SELECT * FROM user
                     WHERE email = '%s'",
         $mysqli->real_escape_string($_POST["email"])
     );
@@ -26,13 +26,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($user) {
 
-        if (password_verify($_POST["password"], $user["password_hash"])) {
+        if (password_verify($_POST["password"], $user["password"])) {
 
             session_start();
 
             session_regenerate_id();
 
-            $_SESSION["user_id"] = $user["id"];
+            $_SESSION["user_id"] = $user["user_id"];
+
 
             header("Location: services.php");
             exit;

@@ -23,7 +23,7 @@
                     <option value="server">Server</option>
                     <option value="mobile">Mobiele telefoon</option>
                 </select>
-                <input type="text" name="onderwerp" id="onderwerp" placeholder="Onderwerp">
+                <input type="text" name="subject" id="onderwerp" placeholder="Onderwerp">
                 <textarea name="problem" id="problem" cols="30" rows="10" placeholder="Zet hier uw text neer"></textarea>
                 <input type="submit" name="submit" class="button4" value="submit">
             </form>
@@ -44,11 +44,11 @@
     // Check if the form is submitted
     if (isset($_POST['submit'])) {
         // Assigning POST values to variables.
-        $onderwerp = $_POST['onderwerp'];
+        $subject = $_POST['subject'];
         $problem = $_POST['problem'];
-        $hardware = $_POST['hardware'];
+        $service_type = $_POST['hardware'];
         // prepare SQL statement
-        $stmt = mysqli_prepare($db, "INSERT INTO test (onderwerp, problem, hardware) VALUES (?, ?, ?)");
+        $stmt = mysqli_prepare($db, "INSERT INTO test (user_id, service_type, subject, description, date, status, contract) VALUES (?, ?, ?, ?, ?, ?, ?)");
         mysqli_stmt_bind_param($stmt, 'sss', $onderwerp, $problem, $hardware);
         // Execute the statement
         mysqli_stmt_execute($stmt);
