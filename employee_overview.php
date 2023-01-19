@@ -1,3 +1,4 @@
+<?php include 'loginCheck.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,8 +30,7 @@
         </div>
         <h3>open</h3>
         <?php
-        if (!empty($noOpen)) {
-            echo "nigga";
+        if (isset($noOpen)) {
             echo $noOpen;
         } else {
             for ($x = 0; $x < ceil((count($openServices) / 2)); $x++) {

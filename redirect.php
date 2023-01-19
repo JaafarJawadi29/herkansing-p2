@@ -1,3 +1,5 @@
+<?php include 'loginCheck.php'; ?>
+
 <head>
     <meta charset="UTF-8">
     <title>Service-IT</title>

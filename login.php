@@ -1,4 +1,12 @@
 <?php
+session_start();
+if (isset($_SESSION['user_id'])) {
+    header('location: services.php');
+    exit();
+}
+?>
+
+<?php
 
 $is_invalid = false;
 
@@ -26,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             $_SESSION["user_id"] = $user["id"];
 
-            header("Location: dashboard.php");
+            header("Location: services.php");
             exit;
         }
     }
