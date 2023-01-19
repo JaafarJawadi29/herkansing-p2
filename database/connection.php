@@ -3,7 +3,7 @@ $conn = "";
 
 try {
     $servername = "localhost";
-    $dbname = "ServiceIT";
+    $dbname = "serviceit";
     $username = "root";
     $password = "";
   
