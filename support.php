@@ -7,14 +7,13 @@ if (!$db) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$query = "SELECT test_id, onderwerp FROM test";
-// echo $query;  // For debugging purposes
+$query = "SELECT service_id, subject FROM service WHERE user_id = " . $_SESSION['user_id'] . "";
 $result = mysqli_query($db, $query);
 
 // Generate options for select element
 $options = "<option value='select'>Selecteer een van uw aangevraagde services</option>";
 while ($row = mysqli_fetch_assoc($result)) {
-    $options .= "<option value='" . $row['test_id'] . "'>" . $row['onderwerp'] . "</option>";
+    $options .= "<option value='" . $row['service_id'] . "'>" . $row['subject'] . "</option>";
 }
 // echo $options;  // For debugging purposes
 
@@ -36,10 +35,10 @@ mysqli_close($db);
         <h1>Support</h1>
         <div class="support">
             <form action="support.php" method="post">
-                <select name="test_id" id='support-options'>
+                <select name="service_id" id='support-options'>
                     <?php echo $options; ?>
                 </select>
-                <input type="text" name="onderwerp" id="onderwerp" placeholder="Onderwerp">
+                <input type="text" name="subject" id="onderwerp" placeholder="Onderwerp">
                 <textarea name="description" id="problem" cols="30" rows="10" placeholder="Zet hier uw text neer"></textarea>
                 <input type="submit" class="button4" value="Aanvragen" name="submit">
             </form>
@@ -60,14 +59,14 @@ if (!$db) {
 // Check if the form is submitted
 if (isset($_POST['submit'])) {
     // Assigning POST values to variables.
-    $test_id = $_POST['test_id'];
+    $service_id = $_POST['service_id'];
     //$onderwerp = $_POST['onderwerp'];
     $description = $_POST['description'];
     $date = date("Y-m-d H:i:s");
 
     // prepare SQL statement
-    $stmt = mysqli_prepare($db, "INSERT INTO warranty_service (test_id, description, date) VALUES (?, ?, ?)");
-    mysqli_stmt_bind_param($stmt, 'iss', $test_id, $description, $date);
+    $stmt = mysqli_prepare($db, "INSERT INTO support (service_id, description, date) VALUES (?, ?, ?)");
+    mysqli_stmt_bind_param($stmt, 'iss', $service_id, $description, $date);
 
     // Execute the statement
     mysqli_stmt_execute($stmt);
