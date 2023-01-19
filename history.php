@@ -65,7 +65,7 @@
                     echo $description;
                 ?>
             </p>
-            <a href="contract.php">
+            <?= "<a href='contract.php?id=" . $service_id . "'>" ?>
                 <button class="button-2">Contract</button>
             </a>
         </div>
