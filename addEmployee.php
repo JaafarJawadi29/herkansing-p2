@@ -13,12 +13,9 @@
     <?php include 'assets/header.php'; ?>
     <div class="container">
         <img class="logo-create" src="assets/svg/Image1.svg" alt="Logo van ServiceIT">
-
         <h1>Voeg medewerker toe</h1>
-
         <div class="hardware">
             <form action="action_page.php" method="post">
-
             </form>
         </div>
     </div>

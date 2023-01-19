@@ -12,9 +12,9 @@
     or die("Could not find database<br>");
     
     //Get email from customer id
-    $queryCustomerData = "SELECT email FROM user WHERE user_id = ?"; //Query to get customer email, ? = customer_id
-    $stmt = mysqli_prepare($conn, $queryCustomerData); //Prepare for execution
-    mysqli_stmt_bind_param($stmt, 'i', $user_id); //Bind $id to ? as int
+    $queryUserData = "SELECT email FROM user WHERE user_id = ?"; //Query to get customer email, ? = customer_id
+    $stmt = mysqli_prepare($conn, $queryUserData); //Prepare for execution
+    mysqli_stmt_bind_param($stmt, 'i', $user_id); //Bind $user_id to ? as int
     mysqli_stmt_execute($stmt) //Execute query
     or die("Could not execute query");
 
@@ -25,7 +25,7 @@
     //Get all services from customer email
     $queryServiceData = "SELECT * FROM service WHERE user_id = ?"; //Query to get all services from customer email, ? = customer_email
     $stmt = mysqli_prepare($conn, $queryServiceData); //Prepare for execution
-    mysqli_stmt_bind_param($stmt, 'i', $user_id); //Bind $customer_email to ? as string
+    mysqli_stmt_bind_param($stmt, 'i', $user_id); //Bind $user_id to ? as string
     mysqli_stmt_execute($stmt) //Execute query
     or die("Could not execute query");
 
@@ -56,7 +56,7 @@
     <h1>Geschiedenis</h1>
     <?php while(mysqli_stmt_fetch($stmt)) {
         if ($status == "closed") {
-         ?>
+    ?>
     <main>
         <div class="history">
             <p class="type"><?php echo $type; ?></p>
