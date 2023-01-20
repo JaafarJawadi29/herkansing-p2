@@ -46,26 +46,25 @@ mysqli_stmt_bind_result($stmt, $service_id, $user_id, $employee_id, $service_typ
 <body>
     <?php include './assets/header2.php'; ?>
     <div class="histories">
-        <h1>Geschiedenis</h1>
 
         <?php while (mysqli_stmt_fetch($stmt)) {
             if ($status == "closed") {
         ?>
-                <main>
-
+                <div class="content">
+                <h1>Geschiedenis</h1>
                     <div class="history">
 
-                        <p class="type"><?php echo $service_type; ?></p>
+                        <p><?php echo $service_type; ?></p>
                         <p>
                             <?php
                             echo $description;
                             ?>
                         </p>
                         <a href="contract.php">
-                            <button class="button-2">Contract</button>
+                            <button class="button4">Contract</button>
                         </a>
                     </div>
-                </main>
+                </div>
         <?php
             }
         }
