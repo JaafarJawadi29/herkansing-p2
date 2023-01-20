@@ -2,6 +2,7 @@
 <?php
 //Get user id from session login
 $user_id = $_SESSION['user_id'];
+$service_id = $_GET["id"];
 
 //Make connection with database
 $conn = mysqli_connect("localhost", "root", "")

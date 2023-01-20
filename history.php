@@ -64,7 +64,7 @@ mysqli_stmt_bind_result($stmt, $service_id, $user_id, $employee_id, $service_typ
                             echo $subject;
                             ?>
                         </p>
-                        <a href="contract.php">
+                        <?= "<a href='contract.php?id=" . $service_id . "'>" ?>
                             <button class="button4">Contract</button>
                         </a>
                     </div>
