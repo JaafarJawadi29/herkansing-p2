@@ -17,6 +17,13 @@
 
         <form action="config/process-signup.php" method="post" novalidate>
             <div class="input-container">
+
+                <select name="user_type" id="user_type">
+                    <option value="0">Kies een rol</option>
+                    <option value="company">Bedrijf</option>
+                    <option value="user">Gebruiker</option>
+                </select>
+
                 <input type="text" id="firstname" name="firstname" placeholder="Voornaam">
                 <input type="text" id="lastname" name="lastname" placeholder="Achternaam">
                 <input type="email" id="email" name="email" placeholder="naam@example.com">

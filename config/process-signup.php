@@ -24,14 +24,17 @@ if ($_POST["password"] != $_POST["password_confirmation"]) {
     die("Passwords do not match");
 }
 
+if ($_POST["user_type"] != "company" && $_POST["user_type"] != "user") {
+    die("Invalid user type selected");
+}
+
 $password_hash = password_hash($_POST["password"], PASSWORD_DEFAULT);
 
 $mysqli = require __DIR__ . "/database.php";
 
 
-$sql = "INSERT INTO user (email, first_name, last_name, password)"
-    . "VALUES (?, ?, ?, ?)";
-
+$sql = "INSERT INTO user (email, first_name, last_name, password, user_type)"
+    . "VALUES (?, ?, ?, ?, ?)";
 $stmt = $mysqli->stmt_init();
 
 if (!$stmt->prepare($sql)) {
@@ -39,12 +42,14 @@ if (!$stmt->prepare($sql)) {
 }
 
 $stmt->bind_param(
-    "ssss",
+    "sssss",
     $_POST["email"],
     $_POST["firstname"],
     $_POST["lastname"],
-    $password_hash
+    $password_hash,
+    $_POST["user_type"]
 );
+
 
 if ($stmt->execute()) {
     echo "Account created successfully";
