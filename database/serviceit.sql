@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 19 jan 2023 om 10:46
+-- Gegenereerd op: 20 jan 2023 om 21:46
 -- Serverversie: 10.4.27-MariaDB
--- PHP-versie: 8.1.12
+-- PHP-versie: 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `serviceit`
 --
+CREATE DATABASE IF NOT EXISTS `serviceit` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `serviceit`;
 
 -- --------------------------------------------------------
 
@@ -47,7 +49,7 @@ DROP TABLE IF EXISTS `service`;
 CREATE TABLE `service` (
   `service_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
-  `employee_id` int(11) NOT NULL,
+  `employee_id` int(11) DEFAULT NULL,
   `service_type` text NOT NULL,
   `subject` varchar(255) NOT NULL,
   `description` varchar(255) NOT NULL,
@@ -125,25 +127,25 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT voor een tabel `employee`
 --
 ALTER TABLE `employee`
-  MODIFY `employee_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `employee_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT voor een tabel `service`
 --
 ALTER TABLE `service`
-  MODIFY `service_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `service_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT voor een tabel `support`
 --
 ALTER TABLE `support`
-  MODIFY `support_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `support_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT voor een tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Beperkingen voor geëxporteerde tabellen
