@@ -14,12 +14,11 @@
 <body>
     <?php
     require("database/account_API.php");
-    $error = "";
     if(isset($_POST["submit"])){
         $password = $_POST["newPassword"];
         $passwordConfirm = $_POST["confirmPassword"];
         //$email = $_SESSION["email"];
-        $email = "aap.gmail.com";
+        $email = $_SESSION["email"];
 
         if(!($password === $passwordConfirm)){
             echo "Wachtwoorden komen niet overeen";
