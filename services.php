@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Services</title>
-    <link rel="stylesheet" href="assets/css/stylesheet2.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
 </head>
 
 <body>
