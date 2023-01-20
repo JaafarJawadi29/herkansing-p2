@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 20 jan 2023 om 21:46
+-- Gegenereerd op: 20 jan 2023 om 22:20
 -- Serverversie: 10.4.27-MariaDB
 -- PHP-versie: 8.2.0
 
@@ -38,6 +38,14 @@ CREATE TABLE `employee` (
   `employee_type` enum('employee','admin') NOT NULL,
   `password` varchar(512) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `employee`
+--
+
+INSERT INTO `employee` (`employee_id`, `first_name`, `last_name`, `email`, `employee_type`, `password`) VALUES
+(3, 'Gerjan', 'van Oenen', 'gerjan.van.oenen@nhlstenden.com', 'employee', '$2y$10$yzphsXa5kOWna8UCsgQvb.71psOSbaQiOzFti.q0BIFwIFA.5NIRK'),
+(4, 'Jan', 'Alleman', 'jantje@outlook.com', 'admin', '$2y$10$yzphsXa5kOWna8UCsgQvb.71psOSbaQiOzFti.q0BIFwIFA.5NIRK');
 
 -- --------------------------------------------------------
 
@@ -89,6 +97,14 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Gegevens worden geëxporteerd voor tabel `user`
+--
+
+INSERT INTO `user` (`user_id`, `first_name`, `last_name`, `email`, `user_type`, `password`) VALUES
+(1, 'Jaâfar', 'Jawadi', 'jaafar@gmail.com', 'user', '$2y$10$yzphsXa5kOWna8UCsgQvb.71psOSbaQiOzFti.q0BIFwIFA.5NIRK'),
+(2, 'Hajo', 'Hilbrands', 'hajo@outlook.com', 'company', '$2y$10$yzphsXa5kOWna8UCsgQvb.71psOSbaQiOzFti.q0BIFwIFA.5NIRK');
+
+--
 -- Indexen voor geëxporteerde tabellen
 --
 
@@ -127,7 +143,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT voor een tabel `employee`
 --
 ALTER TABLE `employee`
-  MODIFY `employee_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `employee_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT voor een tabel `service`
@@ -145,7 +161,7 @@ ALTER TABLE `support`
 -- AUTO_INCREMENT voor een tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Beperkingen voor geëxporteerde tabellen
