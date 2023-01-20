@@ -1,4 +1,4 @@
-<?php include 'logincheck.php'; ?>
+<?php include 'logincheckall.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,8 +23,7 @@
         if (!($password === $passwordConfirm)) {
             echo "Wachtwoorden komen niet overeen";
         } else {
-            $passwordHash = password_hash($_POST["password"], PASSWORD_DEFAULT);
-            echo $passwordHash;
+            $passwordHash = password_hash($password, PASSWORD_DEFAULT);
             setPasswordUser($email, $passwordHash);
         }
     }
