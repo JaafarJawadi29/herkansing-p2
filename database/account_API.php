@@ -21,15 +21,8 @@ function connect(){
 }
 
 function setPasswordUser($email, $password){
-    // $stmt = mysqli_prepare($conn, $queryServiceData); //Prepare query
-    // mysqli_stmt_bind_param($stmt, 'i', $service_id); //Bind $service_id to ? as int
-    // mysqli_stmt_execute($stmt)
-
     $conn = connect();
-    $stmtUser = $conn->prepare("SELECT * FROM `user` WHERE email = ?");
-    $stmtUser->bindParam(1, $email, PDO::PARAM_STR);
-    $stmtUser->execute();
-    $resultUser = $stmtUser->fetchAll();
+    $resultUser = getUsers($email);
     if(!$resultUser[0] == null){
         $query = "UPDATE `user` SET `password` = ? WHERE `email` = ?";
     }else{
@@ -39,5 +32,23 @@ function setPasswordUser($email, $password){
     $stmt->bindParam(1, $password, PDO::PARAM_STR);
     $stmt->bindParam(2, $email, PDO::PARAM_STR);
     $stmt->execute();
+}
+
+function getUsers($email){
+    $conn = connect();
+    $stmtUser = $conn->prepare("SELECT * FROM `user` WHERE email = ?");
+    $stmtUser->bindParam(1, $email, PDO::PARAM_STR);
+    $stmtUser->execute();
+    $resultUser = $stmtUser->fetchAll();
+    return $resultUser;
+}
+
+function getEmployees($email){
+    $conn = connect();
+    $stmtUser = $conn->prepare("SELECT * FROM `employee` WHERE email = ?");
+    $stmtUser->bindParam(1, $email, PDO::PARAM_STR);
+    $stmtUser->execute();
+    $resultUser = $stmtUser->fetchAll();
+    return $resultUser;
 }
 ?>
