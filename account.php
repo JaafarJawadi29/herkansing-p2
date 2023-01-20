@@ -17,7 +17,8 @@
     if(isset($_POST["submit"])){
         $password = $_POST["newPassword"];
         $passwordConfirm = $_POST["confirmPassword"];
-        $email = $_SESSION["email"];
+        //$email = $_SESSION["email"];
+        $email = "aap.gmail.com";
 
         if(!($password === $passwordConfirm)){
             echo "Wachtwoorden komen niet overeen";
