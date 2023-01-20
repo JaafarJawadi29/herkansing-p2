@@ -15,6 +15,7 @@
         <div class="hardware">
             <form action="hw-service.php" method="post">
                 <select name="service_type" id="hardware-options">
+                    <option value="">Type hardware</option>
                     <option value="laptop">Laptop</option>
                     <option value="desktop">Desktop</option>
                     <option value="printer">Printer</option>
@@ -25,7 +26,7 @@
                 </select>
                 <input type="text" name="subject" id="onderwerp" placeholder="Onderwerp">
                 <textarea name="description" id="problem" cols="30" rows="10" placeholder="Zet hier uw text neer"></textarea>
-                <input type="submit" name="submit" class="button4" value="submit">
+                <input type="submit" name="submit" class="button4" value="Versturen">
             </form>
         </div>
     </div>
