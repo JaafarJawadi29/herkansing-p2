@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service employee</title>
-    <link rel="stylesheet" href="assets/css/stylesheet2.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
     <?php include "assets/header2.php" ?>
 </head>
 <body>

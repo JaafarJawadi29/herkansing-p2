@@ -499,3 +499,27 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  .statusBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .statusBox a {
+    align-self: flex-end;
+    margin-left: 620px;
+  }
+
+  .statusBox p {
+    align-self: flex-start
+  }
+
+  .servicesEmployee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
