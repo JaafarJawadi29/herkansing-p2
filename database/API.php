@@ -43,6 +43,15 @@ function getUsers($email){
     return $resultUser;
 }
 
+function getUser($id){
+    $conn = connect();
+    $stmtUser = $conn->prepare("SELECT * FROM `user` WHERE user_id = ?");
+    $stmtUser->bindParam(1, $id, PDO::PARAM_INT);
+    $stmtUser->execute();
+    $resultUser = $stmtUser->fetchAll();
+    return $resultUser;
+}
+
 function getEmployees($email){
     $conn = connect();
     $stmtUser = $conn->prepare("SELECT * FROM `employee` WHERE email = ?");
@@ -50,5 +59,42 @@ function getEmployees($email){
     $stmtUser->execute();
     $resultUser = $stmtUser->fetchAll();
     return $resultUser;
+}
+
+function getEmployee($id){
+    $conn = connect();
+    $stmt = $conn->prepare("SELECT * FROM `employee` WHERE `employee_id` = ?");
+    $stmt->bindParam(1, $id, PDO::PARAM_INT);
+    $stmt->execute();
+    return $stmt->fetchAll();
+}
+
+function getAllServices(){
+    $conn = connect();
+    $stmt = $conn->prepare("SELECT * FROM `service`");
+    $stmt->execute();
+    return $stmt->fetchAll();
+}
+
+function getOpenServices(){
+    $conn = connect();
+    $stmt = $conn->prepare("SELECT * FROM `service` WHERE `status` = 'open'");
+    $stmt->execute();
+    return $stmt->fetchAll();
+}
+
+function getInProgressServices(){
+    $conn = connect();
+    $stmt = $conn->prepare("SELECT * FROM `service` WHERE `status` = 'in progress'");
+    $stmt->execute();
+    return $stmt->fetchAll();
+}
+
+function getService($id){
+    $conn = connect();
+    $stmt = $conn->prepare("SELECT * FROM `service` WHERE `service_id` = ?");
+    $stmt->bindParam(1, $id, PDO::PARAM_INT);
+    $stmt->execute();
+    return $stmt->fetchAll();
 }
 ?>

@@ -1,5 +1,5 @@
 <?php
-require("../database/account_API.php");
+require("../database/API.php");
 
 if (empty($_POST["firstname"])) {
     die("Name is required");

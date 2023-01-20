@@ -1,4 +1,4 @@
-<?php include 'loginCheck.php'; ?>
+<?php include 'logincheckall.php'; ?>
 <?php
 //Get user id from session login
 $user_id = $_SESSION['user_id'];

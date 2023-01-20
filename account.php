@@ -13,20 +13,22 @@
 
 <body>
     <?php
-    require("database/account_API.php");
+    require("database/API.php");
+    require("config/changePasswordCheck.php");
     $error = "";
     if (isset($_POST["submit"])) {
         $password = $_POST["newPassword"];
         $passwordConfirm = $_POST["confirmPassword"];
         $email = $_SESSION["email"];
-
-        if (!($password === $passwordConfirm)) {
+        if(!checkPassword($password)){
+            echo "password not valid";
+        }else if (!($password === $passwordConfirm)) {
             echo "Wachtwoorden komen niet overeen";
         } else {
             $passwordHash = password_hash($password, PASSWORD_DEFAULT);
             setPasswordUser($email, $passwordHash);
+            echo "Wachtwoord is gewijzigd";
         }
-        echo "Wachtwoord is gewijzigd";
     }
     ?>
     <div class="container">
