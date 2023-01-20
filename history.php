@@ -1,6 +1,5 @@
 <?php include 'loginCheck.php'; ?>
 <?php
-session_start();
 //Get user id from session login
 $user_id = $_SESSION['user_id'];
 
@@ -55,10 +54,11 @@ mysqli_stmt_bind_result($stmt, $service_id, $user_id, $employee_id, $service_typ
 </head>
 
 <body>
-    <?php include './assets/header2.php'; ?>
+    
     <div class="histories">
         <h1>Geschiedenis</h1>
-        <?php while (mysqli_stmt_fetch($stmt)) {
+        <?php
+        while (mysqli_stmt_fetch($stmt)) {
             if ($status == "closed") {
         ?>
                 <main>
@@ -66,7 +66,7 @@ mysqli_stmt_bind_result($stmt, $service_id, $user_id, $employee_id, $service_typ
                         <p class="type"><?php echo $service_type; ?></p>
                         <p>
                             <?php
-                            echo $description;
+                            echo $subject;
                             ?>
                         </p>
                         <a href="contract.php">

@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['user_id'])) {
+if (isset($_SESSION['user_id']))  {
     header('location: services.php');
     exit();
 }
@@ -38,27 +38,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             header("Location: services.php");
             exit;
         }
-    } else {
-        $sql = sprintf(
-            "SELECT * FROM employee
-                        WHERE email = '%s'",
-            $mysqli->real_escape_string($_POST["email"])
-        );
-        $result = $mysqli->query($sql);
-        $employee = $result->fetch_assoc();
-        if ($employee) {
-            if (password_verify($_POST["password"], $employee["password"])) {
-                session_start();
-                session_regenerate_id();
-                $_SESSION["employee_id"] = $employee["employee_id"];
-                header("Location: employee_overview.php");
-                exit;
-            }
-        }
     }
 
     $is_invalid = true;
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -66,27 +50,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Comp
-
-
-    }
-
-    $is_invalid = true;
-}
-
-?>
-
-<!DOCTYPE html>
-<html lang=" en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/stylesheet.css">
-        <title>Inloggen</title>
-        <?php include __DIR__ . "/assets/header.php"; ?>
-    </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <title>Inloggen</title>
+    <?php include __DIR__ . "/assets/header.php"; ?>
+</head>
 
 <body>
     <div class="popup">
