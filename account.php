@@ -1,3 +1,4 @@
+<?php include 'logincheckemp.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
