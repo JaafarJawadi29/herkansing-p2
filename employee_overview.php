@@ -1,4 +1,3 @@
-<?php include 'logincheckemp.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -77,6 +76,7 @@
         <h3>Bezig</h3>
         <?php
         if (!($noInProgress[0] == null)) {
+            echo $noInProgress;
         } else {
             for ($x = 0; $x < ceil((count($inProgressServices) / 2)); $x++) {
                 $type1 = $inProgressServices[$x * 2]["service_type"];

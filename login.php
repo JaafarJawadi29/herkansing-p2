@@ -11,7 +11,7 @@ if (isset($_SESSION['user_id']))  {
 $is_invalid = false;
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-
+    echo password_hash("w8woord", PASSWORD_DEFAULT);
     $mysqli = require __DIR__ . "/config/database.php";
 
     $sql = sprintf(
