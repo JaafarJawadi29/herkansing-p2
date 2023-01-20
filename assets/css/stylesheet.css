@@ -4,7 +4,7 @@ body {
   background-color: #f5f5f7;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 /* HEADER  */
@@ -19,13 +19,15 @@ header {
   margin-bottom: 70px;
 }
 
-.header-logo img {
+header img {
   width: 100px;
   display: inline-block;
   margin: 10px 200px;
 }
 
-.secondary-header {
+/* NAVBAR */
+
+.navbar {
   padding-top: 30px;
   margin: auto;
   width: 50%;
@@ -40,14 +42,7 @@ header {
   float: left;
 }
 
-.navbar h1{
-  margin: auto;
-  font-size: 20px;
-  font-weight: bold;
-  float: left;
-}
-
-.secondary-header a {
+.navbar a {
   margin: auto;
   float: right;
   text-decoration: none;
@@ -74,26 +69,17 @@ header {
     rgba(106, 72, 224, 1) 0%,
     rgba(176, 153, 252, 1) 100%
   );
-}
-
-.button3 {
-  margin: auto;
-  float: right;
-  text-decoration: none;
-  background: linear-gradient(0deg,rgba(106, 72, 224, 1) 0%,rgba(176, 153, 252, 1) 100%);
   border: none;
   color: white;
   padding: 15px 60px;
-  padding: 4px 25px;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
   border-radius: 10px;
   display: flex;
-  border-radius: 10px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .button-1:hover {
@@ -122,10 +108,6 @@ header {
 a.create-account {
   margin-top: 20px;
   display: block;
-}  
-.button4{
-  margin: 0px 8px 0px 8px;
-  float: right;
   text-decoration: none;
   color: black;
 }
@@ -176,28 +158,30 @@ p.psw-create {
 
 input {
   height: 50px;
-  background: linear-gradient(0deg,rgba(106, 72, 224, 1) 0%,rgba(176, 153, 252, 1) 100%);
-  border: none;
-  color: white;
-  padding: 2px 10px;
-  text-align: center;
-  font-weight: bold;
-  cursor: pointer;
   border-radius: 10px;
   margin-top: 20px;
   border: none;
   font-size: 16px;
   text-indent: 30px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  margin-left: 50px;
 }
 
-.container {
-  padding-top: 50px;
-  display: block;
-  width: 50%;
+a.psw {
+  text-decoration: none;
+  color: black;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
+}
+
+.popup-content {
+  width: 400px;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   text-align: center;
   padding: 20px;
   color: black;
@@ -208,13 +192,6 @@ input {
 .popup-text {
   margin-top: 50px;
   margin-bottom: 40px;
-}
-
-.container img {
-  display: block;
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .open-popup {
@@ -239,6 +216,7 @@ input {
   margin-right: auto;
   display: block;
 }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -316,4 +294,9 @@ input {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+}
+
+.logo-account {
+  width: 20%;
+  margin-bottom: 40px;
 }

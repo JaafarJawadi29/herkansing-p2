@@ -1,3 +1,4 @@
+<?php include 'loginCheck.php'; ?>
 <?php
     session_start();
     //Get user id from session login
@@ -43,6 +44,7 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,6 +52,7 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <title>Contract</title>
 </head>
+
 <body>
     <h1>Contract</h1>
     <?php
@@ -64,10 +67,12 @@
     <div class="contract">
         <iframe src="<?php echo $filename; ?>" width="100%" height="100%">
         </iframe>
+
         <?php
-            }  
         }
-    ?>
-    </div>
+    }
+        ?>
+            </div>
 </body>
+
 </html>

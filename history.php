@@ -1,3 +1,4 @@
+<?php include 'loginCheck.php'; ?>
 <?php
     session_start();
     //Get user id from session login
@@ -44,6 +45,7 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,7 +53,9 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <title>Geschiedenis</title>
 </head>
+
 <body>
+    <?php include './assets/header2.php'; ?>
     <div class="histories">
     <h1>Geschiedenis</h1>
     <?php while(mysqli_stmt_fetch($stmt)) {
@@ -72,7 +76,9 @@
     </main>
     <?php
         }
-    }
-    ?>
+        ?>
 </body>
-</html>
+<?php
+mysqli_stmt_close($stmt);
+mysqli_close($conn);
+?>

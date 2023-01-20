@@ -81,10 +81,22 @@ body {
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    margin-left: 50px;
     font-size: 10px;
   }
-  
+  .button5{
+  margin: 0px 20px 0px 20px;
+    text-decoration: none;
+    background: linear-gradient(0deg,rgba(106, 72, 224, 1) 0%,rgba(176, 153, 252, 1) 100%);
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-size: 10px;
+  }
   .container {
     padding-top: 50px;
     display: block;
@@ -126,6 +138,61 @@ body {
     width: 100%;
     justify-content: space-between;
   }
+
+  /**
+  *employee overview
+  */
+
+  .titleBox{
+    text-align: center;
+  }
+  
+  .serviceBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    height: 70px;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .serviceContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .dateText{
+    color: red;
+  }
+
+  .container {
+    padding-top: 50px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .employeeContainer {
+    padding-top: 50px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .service p{
     margin: 0px 20px 0px 20px;
     font-size: 16px;
@@ -166,7 +233,7 @@ body {
     padding-left: 10px;
     border: 0px;
   }
-
+  
   .support {
     width : 25%;
   }
@@ -185,3 +252,29 @@ body {
     padding-left: 10px;
     border: 0px;
   } 
+
+  .logo-login {
+    width: 30%;
+    margin-bottom: 40px;
+  }
+  
+  .button-1.login {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .input-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
