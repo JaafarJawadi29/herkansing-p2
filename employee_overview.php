@@ -16,11 +16,11 @@
     $noInProgress = "";
 
     $openServices = getOpenServices();
-    if ($openServices[0] == null) {
+    if (count($openServices) == 0) {
         $noOpen = "Geen services die nog behandeld moeten worden";
     }
     $inProgressServices = getInProgressServices();
-    if ($inProgressServices[0] == null) {
+    if (count($inProgressServices) == 0) {
         $noInProgress = "Geen lopende services";
     }
     ?>
