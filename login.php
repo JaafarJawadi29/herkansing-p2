@@ -33,10 +33,29 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             session_regenerate_id();
 
             $_SESSION["user_id"] = $user["user_id"];
+            $_SESSION["email"] = $user["email"];
 
 
             header("Location: services.php");
             exit;
+        }
+    } else {
+        $sql = sprintf(
+            "SELECT * FROM employee
+                        WHERE email = '%s'",
+            $mysqli->real_escape_string($_POST["email"])
+        );
+        $result = $mysqli->query($sql);
+        $employee = $result->fetch_assoc();
+        if ($employee) {
+            if (password_verify($_POST["password"], $employee["password"])) {
+                session_start();
+                session_regenerate_id();
+                $_SESSION["employee_id"] = $employee["employee_id"];
+                $_SESSION["email"] = $employee["email"];
+                header("Location: employee_overview.php");
+                exit;
+            }
         }
     }
 

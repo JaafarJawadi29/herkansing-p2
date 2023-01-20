@@ -42,6 +42,13 @@ header img {
   float: left;
 }
 
+.navbar h1{
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+
 .navbar a {
   margin: auto;
   float: right;
@@ -49,6 +56,25 @@ header img {
   color: black;
   padding-left: 50px;
   margin-top: 5px;
+}
+.button3 {
+  margin: auto;
+  float: right;
+  text-decoration: none;
+  background: linear-gradient(0deg,rgba(106, 72, 224, 1) 0%,rgba(176, 153, 252, 1) 100%);
+  border: none;
+  color: white;
+  padding: 4px 25px;
+  padding-left: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+  height: auto;
+  width: auto;
 }
 
 /* MAIN */
