@@ -11,17 +11,6 @@ $conn = mysqli_connect("localhost", "root", "")
 mysqli_select_db($conn, "serviceit")
     or die("Could not find database<br>");
 
-//Get user id from user
-$queryUserData = "SELECT user_id FROM user WHERE user_id = ?"; //Query to get customer email, ? = customer_id
-$stmt = mysqli_prepare($conn, $queryUserData); //Prepare for execution
-mysqli_stmt_bind_param($stmt, 'i', $user_id); //Bind $user_id to ? as int
-mysqli_stmt_execute($stmt) //Execute query
-    or die("Could not execute query");
-
-//Bind results from database
-$user_id = mysqli_stmt_bind_result($stmt, $user_id);
-mysqli_stmt_close($stmt); //Closes stmt
-
 //Get all services from user id
 $queryServiceData = "SELECT * FROM service WHERE user_id = ?"; //Query to get all services from customer email, ? = customer_email
 $stmt = mysqli_prepare($conn, $queryServiceData); //Prepare for execution
