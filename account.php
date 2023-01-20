@@ -37,7 +37,7 @@
             <div class="input-container">
                 <input type="password" id="newPassword" name="newPassword" placeholder="Nieuw wachtwoord">
                 <input type="password" id="confirmPassword " name="confirmPassword" placeholder="Herhaal wachtwoord">
-                <button class="button-1 login" name="submit" id="submit">Inloggen</button>
+                <button class="button-1 login" name="submit" id="submit">Bevestingen</button>
         </form>
     </div>
 </body>
