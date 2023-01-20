@@ -35,7 +35,7 @@ $employee_id = mysqli_stmt_bind_result($stmt, $employee_id, $first_name, $last_n
 </head>
 
 <body>
-    <?php include 'assets/header.php'; ?>
+    <?php include 'assets/header3.php'; ?>
     <?php
     ?>
     <div class="container">
