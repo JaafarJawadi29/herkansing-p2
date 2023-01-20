@@ -25,9 +25,12 @@ if ($_POST["password"] != $_POST["password_confirmation"]) {
     die("Passwords do not match");
 }
 
+if ($_POST["user_type"] != "company" && $_POST["user_type"] != "user") {
+    die("Invalid user type selected");
+}
+
 $users = getUsers($_POST["email"]);
 $employees = getEmployees($_POST["email"]);
 if($users[0] != null || $employees[0] != null){
     die("Email already in use");
 }
-?>
