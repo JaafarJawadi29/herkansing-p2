@@ -1,8 +1,6 @@
 <?php include 'loginCheck.php'; ?>
 <?php
-session_start();
-//Get user id from session login
-$user_id = $_SESSION['user_id'];
+
 
 //Make connection with database
 $conn = mysqli_connect("localhost", "root", "")

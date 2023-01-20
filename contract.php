@@ -1,7 +1,5 @@
 <?php include 'loginCheck.php'; ?>
 <?php
-session_start();
-$SESSION['service_id'] = 1;
 //Get user id from session login
 $user_id = $_SESSION['user_id'];
 $service_id = $_SESSION['service_id'];
