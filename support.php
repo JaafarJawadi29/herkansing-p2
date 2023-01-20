@@ -26,7 +26,7 @@ mysqli_close($db);
 <head>
     <meta charset="UTF-8">
     <title>Service-IT</title>
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/stylesheet2.css">
 </head>
 
 <body>
