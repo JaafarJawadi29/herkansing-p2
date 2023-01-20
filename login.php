@@ -33,6 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             session_regenerate_id();
 
             $_SESSION["user_id"] = $user["user_id"];
+            $_SESSION["email"] = $user["email"];
 
 
             header("Location: services.php");
@@ -51,6 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 session_start();
                 session_regenerate_id();
                 $_SESSION["employee_id"] = $employee["employee_id"];
+                $_SESSION["email"] = $employee["email"];
                 header("Location: employee_overview.php");
                 exit;
             }

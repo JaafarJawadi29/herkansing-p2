@@ -10,6 +10,6 @@
     <?php include './assets/header2.php'; ?>
     <div class="content">
         <h1>Aanvraag succesvol!</h1>
-        <h2>Een medewerker zal spoeding contact met u opnemen</h2>
-        <button class='button5' onclick="window.location='services.php'"> Home </button>
+        <h2>Een medewerker zal zo spoedig contact met u opnemen</h2>
+        <button class='button5' onclick="window.location='services.php'"> Ga terug naar het dashboard </button>
     </div>
