@@ -51,7 +51,6 @@ $service_id = mysqli_stmt_bind_result($stmt, $service_id, $user_id, $employee_id
     <link rel="stylesheet" href="css/stylesheet.css">
     <title>Contract</title>
 </head>
-
 <body>
     <h1>Contract</h1>
     <?php
