@@ -52,7 +52,7 @@
         $description = $_POST['description'];
         $date = date("Y-m-d H:i:s");
         $status = "open";
-        $contract = "string";
+        $contract = "contract";
         // prepare SQL statement
         $stmt = mysqli_prepare($db, "INSERT INTO service (user_id, employee_id, service_type, subject, description, date, status, contract) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
         mysqli_stmt_bind_param($stmt, 'iissssss', $user_id, $employee_id, $service_type, $subject, $description, $date, $status, $contract);
