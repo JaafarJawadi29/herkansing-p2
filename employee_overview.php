@@ -12,9 +12,6 @@
     <?php include 'assets/header2.php'; ?>
     <?php include 'database/service_API.php'; ?>
     <?php
-    if (!isset($_SESSION['user'])) {
-        header("Location: login.php");
-    }
     $noOpen = "";
     $noInProgress = "";
 
