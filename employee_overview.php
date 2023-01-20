@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <?php include 'logincheckemp.php'; ?>
+=======
+>>>>>>> b767833 (duplicate email check added)
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,18 +15,15 @@
     <?php include 'assets/header2.php'; ?>
     <?php include 'database/service_API.php'; ?>
     <?php
-    if (!isset($_SESSION['user'])) {
-        header("Location: login.php");
-    }
     $noOpen = "";
     $noInProgress = "";
 
     $openServices = getOpenServices();
-    if ($openServices[0] == null) {
+    if (!isset($openServices)) {
         $noOpen = "Geen open services";
     }
     $inProgressServices = getInProgressServices();
-    if ($closedServices[0] == null) {
+    if (!isset($closedServices)) {
         $noInProgress = "Geen Services waar iemand mee bezig is";
     }
     ?>
@@ -31,7 +31,8 @@
         <div class="titleBox">
             <h1>Overzicht</h1>
         </div>
-        <h3>Open</h3>
+        <h3>open</h3>
+        <?php
         if (!empty($noOpen)) {
         echo $noOpen;
         } else {
