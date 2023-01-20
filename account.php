@@ -8,7 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <title>Account Beheren</title>
-    <?php include __DIR__ . "/assets/header2.php"; ?>
+    <?php 
+    if (isset($_SESSION["employee_id"])) {
+        include __DIR__ . "/assets/header3.php";
+    } else {
+        include __DIR__ . "/assets/header2.php";
+    } ?>
 </head>
 
 <body>
