@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['user_id'])) {
+if (isset($_SESSION['user_id']))  {
     header('location: services.php');
     exit();
 }
@@ -11,7 +11,7 @@ if (isset($_SESSION['user_id'])) {
 $is_invalid = false;
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-
+    echo password_hash("w8woord", PASSWORD_DEFAULT);
     $mysqli = require __DIR__ . "/config/database.php";
 
     $sql = sprintf(
@@ -61,6 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $is_invalid = true;
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -68,27 +69,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Comp
-
-
-    }
-
-    $is_invalid = true;
-}
-
-?>
-
-<!DOCTYPE html>
-<html lang=" en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/stylesheet.css">
-        <title>Inloggen</title>
-        <?php include __DIR__ . "/assets/header.php"; ?>
-    </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <title>Inloggen</title>
+    <?php include __DIR__ . "/assets/header.php"; ?>
+</head>
 
 <body>
     <div class="popup">

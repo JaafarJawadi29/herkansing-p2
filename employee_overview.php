@@ -1,4 +1,3 @@
-<?php include 'logincheckemp.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,18 +8,18 @@
 </head>
 
 <body>
-    <?php include 'assets/header2.php'; ?>
+    <?php include 'assets/header3.php'; ?>
     <?php include 'database/service_API.php'; ?>
     <?php
     $noOpen = "";
     $noInProgress = "";
 
     $openServices = getOpenServices();
-    if ($openServices[0] == null) {
+    if (count($openServices) == 0) {
         $noOpen = "Geen services die nog behandeld moeten worden";
     }
     $inProgressServices = getInProgressServices();
-    if ($inProgressServices[0] == null) {
+    if (count($inProgressServices) == 0) {
         $noInProgress = "Geen lopende services";
     }
     ?>
@@ -77,6 +76,7 @@
         <h3>Bezig</h3>
         <?php
         if (!($noInProgress[0] == null)) {
+            echo $noInProgress;
         } else {
             for ($x = 0; $x < ceil((count($inProgressServices) / 2)); $x++) {
                 $type1 = $inProgressServices[$x * 2]["service_type"];

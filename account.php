@@ -1,4 +1,4 @@
-<?php include 'logincheckemp.php'; ?>
+<?php include 'logincheck.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,21 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <title>Account Beheren</title>
-    <?php include __DIR__ . "/assets/header.php"; ?>
+    <?php include __DIR__ . "/assets/header2.php"; ?>
 </head>
 
 <body>
     <?php
     require("database/account_API.php");
-    if(isset($_POST["submit"])){
+    $error = "";
+    if (isset($_POST["submit"])) {
         $password = $_POST["newPassword"];
         $passwordConfirm = $_POST["confirmPassword"];
-        //$email = $_SESSION["email"];
         $email = $_SESSION["email"];
 
-        if(!($password === $passwordConfirm)){
+        if (!($password === $passwordConfirm)) {
             echo "Wachtwoorden komen niet overeen";
-        }else{
+        } else {
             $passwordHash = password_hash($_POST["password"], PASSWORD_DEFAULT);
             echo $passwordHash;
             setPasswordUser($email, $passwordHash);
