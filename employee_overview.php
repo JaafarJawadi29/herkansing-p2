@@ -17,11 +17,11 @@
 
     $openServices = getOpenServices();
     if ($openServices[0] == null) {
-        $noOpen = "Geen open services";
+        $noOpen = "Geen services die nog behandeld moeten worden";
     }
     $inProgressServices = getInProgressServices();
     if ($inProgressServices[0] == null) {
-        $noInProgress = "Geen Services waar iemand mee bezig is";
+        $noInProgress = "Geen lopende services";
     }
     ?>
     <div class="employeeContainer">
