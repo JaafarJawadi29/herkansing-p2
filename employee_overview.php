@@ -20,7 +20,7 @@
         $noOpen = "Geen open services";
     }
     $inProgressServices = getInProgressServices();
-    if ($closedServices[0] == null) {
+    if ($inProgressServices[0] == null) {
         $noInProgress = "Geen Services waar iemand mee bezig is";
     }
     ?>
@@ -30,11 +30,11 @@
         </div>
         <h3>Open</h3>
         <?php
-        if (!empty($noOpen)) {
+        if (!($noOpen == null)) {
             echo $noOpen;
         } else {
             for ($x = 0; $x < ceil((count($openServices) / 2)); $x++) {
-                $type1 = $openServices[$x * 2]["type"];
+                $type1 = $openServices[$x * 2]["service_type"];
                 $description1 = $openServices[$x * 2]["description"];
                 $date1 = $openServices[$x * 2]["date"];
                 $time = strtotime($date1);
@@ -52,7 +52,7 @@
                 <input type="button" class="button4" value="Bekijk">
             </div>';
                 if (isset($openServices[($x * 2) + 1])) {
-                    $type2 = $openServices[($x * 2) + 1]["type"];
+                    $type2 = $openServices[($x * 2) + 1]["service_type"];
                     $description2 = $openServices[($x * 2) + 1]["description"];
                     $date2 = $openServices[($x * 2) + 1]["date"];
                     $time = strtotime($date2);
@@ -76,13 +76,12 @@
         } ?>
         <h3>Bezig</h3>
         <?php
-        if (!empty($noInProgress)) {
-            echo $noInProgress;
+        if (!($noInProgress[0] == null)) {
         } else {
-            for ($x = 0; $x < ceil((count($closedServices) / 2)); $x++) {
-                $type1 = $closedServices[$x * 2]["type"];
-                $description1 = $closedServices[$x * 2]["description"];
-                $date1 = $closedServices[$x * 2]["date"];
+            for ($x = 0; $x < ceil((count($inProgressServices) / 2)); $x++) {
+                $type1 = $inProgressServices[$x * 2]["service_type"];
+                $description1 = $inProgressServices[$x * 2]["description"];
+                $date1 = $inProgressServices[$x * 2]["date"];
                 $time = strtotime($date1);
                 $date = getdate($time);
                 $dateFormatted = $date['mday'] . "-" . $date['mon'] . "-" . $date['year'];
@@ -99,10 +98,10 @@
                 <input type="button" class="button4" value="Bekijk">
             </div>';
 
-                if (isset($closedServices[($x * 2) + 1])) {
-                    $type2 = $closedServices[($x * 2) + 1]["type"];
-                    $description2 = $closedServices[($x * 2) + 1]["description"];
-                    $date2 = $closedServices[($x * 2) + 1]["date"];
+                if (isset($inProgressServices[($x * 2) + 1])) {
+                    $type2 = $inProgressServices[($x * 2) + 1]["service_type"];
+                    $description2 = $inProgressServices[($x * 2) + 1]["description"];
+                    $date2 = $inProgressServices[($x * 2) + 1]["date"];
                     $time = strtotime($date2);
                     $date = getdate($time);
                     $dateFormatted = $date['mday'] . "-" . $date['mon'] . "-" . $date['year'];
