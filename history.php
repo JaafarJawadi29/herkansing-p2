@@ -48,7 +48,6 @@ mysqli_stmt_bind_result($stmt, $service_id, $user_id, $employee_id, $service_typ
     
     <div class="histories">
 
-        <?php while (mysqli_stmt_fetch($stmt)) {
         <?php
         while (mysqli_stmt_fetch($stmt)) {
             if ($status == "closed") {
