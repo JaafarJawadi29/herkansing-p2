@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service employee</title>
     <link rel="stylesheet" href="assets/css/stylesheet2.css">
-    <?php include "assets/header2.php" ?>
+    <?php include "assets/header3.php" ?>
 </head>
 <body>
     <?php
@@ -52,7 +52,6 @@
                     <option value="in progress"<?php if($service[0]["status"] == "in progress"){echo "selected='selected'";}?>>In Progress</option>
                 </select>
                 <input type="submit" name="submit" id="submit" value="opslaan">
-                <?='<a class="button3" href="contract.php?id=' . $service[0]["service_id"] .'" target="_blank">Download</a>'?>
         </div>
     </div>
     <div class="servicesEmployee">
