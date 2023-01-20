@@ -8,5 +8,6 @@
         <a href="employee_overview.php">Overzicht</a>
         <a href="account.php">Account</a>
         <a href="history.php">Geschiedenis</a>
+        <a href="addEmployee.php">Medewerker toevoegen</a>
     </div>
 </header>
