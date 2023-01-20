@@ -58,7 +58,7 @@ $service_id = mysqli_stmt_bind_result($stmt, $service_id, $user_id, $employee_id
     //Get contract from selected service id
     while (mysqli_stmt_fetch($stmt)) {
         if ($status == "closed") {
-            $filename = "contract/" . $contract . ".pdf";
+            $filename = "assets/contracts/" . $contract . ".pdf";
     ?>
             <div class="contractinfo">
                 <a class="button-4" href="<?php echo $filename; ?>" target="_blank">Download</a>
